@@ -1,0 +1,35 @@
+Package: SkeletonCharybdis
+Type: Package
+Title: Skeleton package based on Characterizing Health Associated Risks and Your Baseline Disease In SARS-COV-2 (CHARYBDIS)
+Version: 0.0.1
+Author: Anthony G. Sena [aut, cre]
+Maintainer: Anthony G. Sena <asena5@its.jnj.com>
+Description: Skeleton package for performing large scale characterization
+Depends:
+  DatabaseConnector (>= 3.0.0)
+Imports:
+  CohortDiagnostics (>= 1.0.2),
+  FeatureExtraction (>= 3.0.0),
+  ParallelLogger (>= 2.0.0),
+  OhdsiSharing (>= 0.2.2),
+  SqlRender,
+  Andromeda,
+  digest,
+  readr,
+  dplyr,
+  ggplot2 (<= 3.2.1),
+  tibble
+Suggests:
+  knitr,
+  rmarkdown
+Remotes:
+  OHDSI/CohortDiagnostics,
+  OHDSI/FeatureExtraction,
+  OHDSI/OhdsiSharing
+License: Apache License 2.0
+VignetteBuilder: knitr
+URL: https://ohdsi.github.io/SkeletonCharybdis, https://github.com/OHDSI/SkeletonCharybdis
+BugReports: https://github.com/OHDSI/SkeletonCharybdis/issues
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 7.1.0

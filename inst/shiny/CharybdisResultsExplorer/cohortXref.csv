@@ -1,0 +1,20 @@
+cohortId,targetId,targetName,strataId,strataName,cohortType
+133,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,0,All,Target
+133001012,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,101,without  with  Prevalent hypertension,TwoS
+133000011,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,1,with Full 30-day follow up,TwS
+133000021,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,2,with < 30-day follow up,TwS
+133000031,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,3,with Sex = Female,TwS
+133000041,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,4,with Sex = Male,TwS
+133000051,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,5,with Age >= 18,TwS
+133000061,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,6,with Age < 18,TwS
+133000071,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,7,with Age >= 65,TwS
+133000081,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,8,with Age < 65,TwS
+133000091,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,9,with Black or African American,TwS
+133000101,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,10,with White,TwS
+133000111,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,11,with Index date: Jan 2020,TwS
+133000121,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,12,with Index date: Feb 2020,TwS
+133000131,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,13,with Index date: Mar 2020,TwS
+133000141,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,14,with Index date: Apr 2020,TwS
+133000151,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,15,with Index date: May 2020,TwS
+133000161,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,16,with Index date: Jun 2020,TwS
+133001011,133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,101,with  Prevalent hypertension,TwS
