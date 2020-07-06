@@ -1,0 +1,28 @@
+DBMS:
+pdw
+
+Error:
+com.microsoft.sqlserver.jdbc.SQLServerException: Invalid object name 'drug_era'.
+
+SQL:
+select datediff(dd,drug_era_start_date, drug_era_end_date) as loe
+from drug_era
+where drug_concept_id = 974166;
+
+
+R version:
+R version 3.6.3 (2020-02-29)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- utils
+- datasets
+- methods
+- base
+
+Other attached packages:
