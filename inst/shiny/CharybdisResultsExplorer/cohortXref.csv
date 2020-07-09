@@ -26,7 +26,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025,1025,ritonavir/lopinavir,0,All,Target
 1026,1026,Interferon beta 1b,0,All,Target
 1027,1027,Interferon beta 1a,0,All,Target
-1028,1028,Interferon beta 1a,0,All,Target
+1028,1028,Interferon alfa 2a,0,All,Target
 1029,1029,favipiravir,0,All,Target
 1030,1030,Remdesivir,0,All,Target
 1031,1031,ribavirin,0,All,Target
@@ -109,7 +109,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020012,1025,ritonavir/lopinavir,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
 1026020012,1026,Interferon beta 1b,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
 1027020012,1027,Interferon beta 1a,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1028020012,1028,Interferon beta 1a,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1028020012,1028,Interferon alfa 2a,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
 1029020012,1029,favipiravir,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
 1030020012,1030,Remdesivir,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
 1031020012,1031,ribavirin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
@@ -192,7 +192,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020022,1025,ritonavir/lopinavir,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
 1026020022,1026,Interferon beta 1b,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
 1027020022,1027,Interferon beta 1a,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1028020022,1028,Interferon beta 1a,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1028020022,1028,Interferon alfa 2a,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
 1029020022,1029,favipiravir,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
 1030020022,1030,Remdesivir,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
 1031020022,1031,ribavirin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
@@ -275,7 +275,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020032,1025,ritonavir/lopinavir,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
 1026020032,1026,Interferon beta 1b,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
 1027020032,1027,Interferon beta 1a,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1028020032,1028,Interferon beta 1a,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1028020032,1028,Interferon alfa 2a,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
 1029020032,1029,favipiravir,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
 1030020032,1030,Remdesivir,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
 1031020032,1031,ribavirin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
@@ -358,7 +358,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020042,1025,ritonavir/lopinavir,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
 1026020042,1026,Interferon beta 1b,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
 1027020042,1027,Interferon beta 1a,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1028020042,1028,Interferon beta 1a,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1028020042,1028,Interferon alfa 2a,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
 1029020042,1029,favipiravir,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
 1030020042,1030,Remdesivir,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
 1031020042,1031,ribavirin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
@@ -441,7 +441,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020052,1025,ritonavir/lopinavir,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
 1026020052,1026,Interferon beta 1b,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
 1027020052,1027,Interferon beta 1a,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1028020052,1028,Interferon beta 1a,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1028020052,1028,Interferon alfa 2a,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
 1029020052,1029,favipiravir,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
 1030020052,1030,Remdesivir,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
 1031020052,1031,ribavirin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
@@ -524,7 +524,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020062,1025,ritonavir/lopinavir,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
 1026020062,1026,Interferon beta 1b,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
 1027020062,1027,Interferon beta 1a,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1028020062,1028,Interferon beta 1a,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1028020062,1028,Interferon alfa 2a,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
 1029020062,1029,favipiravir,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
 1030020062,1030,Remdesivir,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
 1031020062,1031,ribavirin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
@@ -607,7 +607,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000011,1025,ritonavir/lopinavir,1,with Full 30-day follow up,TwS
 1026000011,1026,Interferon beta 1b,1,with Full 30-day follow up,TwS
 1027000011,1027,Interferon beta 1a,1,with Full 30-day follow up,TwS
-1028000011,1028,Interferon beta 1a,1,with Full 30-day follow up,TwS
+1028000011,1028,Interferon alfa 2a,1,with Full 30-day follow up,TwS
 1029000011,1029,favipiravir,1,with Full 30-day follow up,TwS
 1030000011,1030,Remdesivir,1,with Full 30-day follow up,TwS
 1031000011,1031,ribavirin,1,with Full 30-day follow up,TwS
@@ -690,7 +690,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000021,1025,ritonavir/lopinavir,2,with < 30-day follow up,TwS
 1026000021,1026,Interferon beta 1b,2,with < 30-day follow up,TwS
 1027000021,1027,Interferon beta 1a,2,with < 30-day follow up,TwS
-1028000021,1028,Interferon beta 1a,2,with < 30-day follow up,TwS
+1028000021,1028,Interferon alfa 2a,2,with < 30-day follow up,TwS
 1029000021,1029,favipiravir,2,with < 30-day follow up,TwS
 1030000021,1030,Remdesivir,2,with < 30-day follow up,TwS
 1031000021,1031,ribavirin,2,with < 30-day follow up,TwS
@@ -773,7 +773,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000031,1025,ritonavir/lopinavir,3,with Sex = Female,TwS
 1026000031,1026,Interferon beta 1b,3,with Sex = Female,TwS
 1027000031,1027,Interferon beta 1a,3,with Sex = Female,TwS
-1028000031,1028,Interferon beta 1a,3,with Sex = Female,TwS
+1028000031,1028,Interferon alfa 2a,3,with Sex = Female,TwS
 1029000031,1029,favipiravir,3,with Sex = Female,TwS
 1030000031,1030,Remdesivir,3,with Sex = Female,TwS
 1031000031,1031,ribavirin,3,with Sex = Female,TwS
@@ -856,7 +856,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000041,1025,ritonavir/lopinavir,4,with Sex = Male,TwS
 1026000041,1026,Interferon beta 1b,4,with Sex = Male,TwS
 1027000041,1027,Interferon beta 1a,4,with Sex = Male,TwS
-1028000041,1028,Interferon beta 1a,4,with Sex = Male,TwS
+1028000041,1028,Interferon alfa 2a,4,with Sex = Male,TwS
 1029000041,1029,favipiravir,4,with Sex = Male,TwS
 1030000041,1030,Remdesivir,4,with Sex = Male,TwS
 1031000041,1031,ribavirin,4,with Sex = Male,TwS
@@ -939,7 +939,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000051,1025,ritonavir/lopinavir,5,with Age >= 18,TwS
 1026000051,1026,Interferon beta 1b,5,with Age >= 18,TwS
 1027000051,1027,Interferon beta 1a,5,with Age >= 18,TwS
-1028000051,1028,Interferon beta 1a,5,with Age >= 18,TwS
+1028000051,1028,Interferon alfa 2a,5,with Age >= 18,TwS
 1029000051,1029,favipiravir,5,with Age >= 18,TwS
 1030000051,1030,Remdesivir,5,with Age >= 18,TwS
 1031000051,1031,ribavirin,5,with Age >= 18,TwS
@@ -1022,7 +1022,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000061,1025,ritonavir/lopinavir,6,with Age < 18,TwS
 1026000061,1026,Interferon beta 1b,6,with Age < 18,TwS
 1027000061,1027,Interferon beta 1a,6,with Age < 18,TwS
-1028000061,1028,Interferon beta 1a,6,with Age < 18,TwS
+1028000061,1028,Interferon alfa 2a,6,with Age < 18,TwS
 1029000061,1029,favipiravir,6,with Age < 18,TwS
 1030000061,1030,Remdesivir,6,with Age < 18,TwS
 1031000061,1031,ribavirin,6,with Age < 18,TwS
@@ -1105,7 +1105,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000071,1025,ritonavir/lopinavir,7,with Age >= 65,TwS
 1026000071,1026,Interferon beta 1b,7,with Age >= 65,TwS
 1027000071,1027,Interferon beta 1a,7,with Age >= 65,TwS
-1028000071,1028,Interferon beta 1a,7,with Age >= 65,TwS
+1028000071,1028,Interferon alfa 2a,7,with Age >= 65,TwS
 1029000071,1029,favipiravir,7,with Age >= 65,TwS
 1030000071,1030,Remdesivir,7,with Age >= 65,TwS
 1031000071,1031,ribavirin,7,with Age >= 65,TwS
@@ -1188,7 +1188,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000081,1025,ritonavir/lopinavir,8,with Age < 65,TwS
 1026000081,1026,Interferon beta 1b,8,with Age < 65,TwS
 1027000081,1027,Interferon beta 1a,8,with Age < 65,TwS
-1028000081,1028,Interferon beta 1a,8,with Age < 65,TwS
+1028000081,1028,Interferon alfa 2a,8,with Age < 65,TwS
 1029000081,1029,favipiravir,8,with Age < 65,TwS
 1030000081,1030,Remdesivir,8,with Age < 65,TwS
 1031000081,1031,ribavirin,8,with Age < 65,TwS
@@ -1271,7 +1271,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000091,1025,ritonavir/lopinavir,9,with Black or African American,TwS
 1026000091,1026,Interferon beta 1b,9,with Black or African American,TwS
 1027000091,1027,Interferon beta 1a,9,with Black or African American,TwS
-1028000091,1028,Interferon beta 1a,9,with Black or African American,TwS
+1028000091,1028,Interferon alfa 2a,9,with Black or African American,TwS
 1029000091,1029,favipiravir,9,with Black or African American,TwS
 1030000091,1030,Remdesivir,9,with Black or African American,TwS
 1031000091,1031,ribavirin,9,with Black or African American,TwS
@@ -1354,7 +1354,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000101,1025,ritonavir/lopinavir,10,with White,TwS
 1026000101,1026,Interferon beta 1b,10,with White,TwS
 1027000101,1027,Interferon beta 1a,10,with White,TwS
-1028000101,1028,Interferon beta 1a,10,with White,TwS
+1028000101,1028,Interferon alfa 2a,10,with White,TwS
 1029000101,1029,favipiravir,10,with White,TwS
 1030000101,1030,Remdesivir,10,with White,TwS
 1031000101,1031,ribavirin,10,with White,TwS
@@ -1437,7 +1437,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000111,1025,ritonavir/lopinavir,11,with Index date: Jan 2020,TwS
 1026000111,1026,Interferon beta 1b,11,with Index date: Jan 2020,TwS
 1027000111,1027,Interferon beta 1a,11,with Index date: Jan 2020,TwS
-1028000111,1028,Interferon beta 1a,11,with Index date: Jan 2020,TwS
+1028000111,1028,Interferon alfa 2a,11,with Index date: Jan 2020,TwS
 1029000111,1029,favipiravir,11,with Index date: Jan 2020,TwS
 1030000111,1030,Remdesivir,11,with Index date: Jan 2020,TwS
 1031000111,1031,ribavirin,11,with Index date: Jan 2020,TwS
@@ -1520,7 +1520,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000121,1025,ritonavir/lopinavir,12,with Index date: Feb 2020,TwS
 1026000121,1026,Interferon beta 1b,12,with Index date: Feb 2020,TwS
 1027000121,1027,Interferon beta 1a,12,with Index date: Feb 2020,TwS
-1028000121,1028,Interferon beta 1a,12,with Index date: Feb 2020,TwS
+1028000121,1028,Interferon alfa 2a,12,with Index date: Feb 2020,TwS
 1029000121,1029,favipiravir,12,with Index date: Feb 2020,TwS
 1030000121,1030,Remdesivir,12,with Index date: Feb 2020,TwS
 1031000121,1031,ribavirin,12,with Index date: Feb 2020,TwS
@@ -1603,7 +1603,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000131,1025,ritonavir/lopinavir,13,with Index date: Mar 2020,TwS
 1026000131,1026,Interferon beta 1b,13,with Index date: Mar 2020,TwS
 1027000131,1027,Interferon beta 1a,13,with Index date: Mar 2020,TwS
-1028000131,1028,Interferon beta 1a,13,with Index date: Mar 2020,TwS
+1028000131,1028,Interferon alfa 2a,13,with Index date: Mar 2020,TwS
 1029000131,1029,favipiravir,13,with Index date: Mar 2020,TwS
 1030000131,1030,Remdesivir,13,with Index date: Mar 2020,TwS
 1031000131,1031,ribavirin,13,with Index date: Mar 2020,TwS
@@ -1686,7 +1686,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000141,1025,ritonavir/lopinavir,14,with Index date: Apr 2020,TwS
 1026000141,1026,Interferon beta 1b,14,with Index date: Apr 2020,TwS
 1027000141,1027,Interferon beta 1a,14,with Index date: Apr 2020,TwS
-1028000141,1028,Interferon beta 1a,14,with Index date: Apr 2020,TwS
+1028000141,1028,Interferon alfa 2a,14,with Index date: Apr 2020,TwS
 1029000141,1029,favipiravir,14,with Index date: Apr 2020,TwS
 1030000141,1030,Remdesivir,14,with Index date: Apr 2020,TwS
 1031000141,1031,ribavirin,14,with Index date: Apr 2020,TwS
@@ -1769,7 +1769,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000151,1025,ritonavir/lopinavir,15,with Index date: May 2020,TwS
 1026000151,1026,Interferon beta 1b,15,with Index date: May 2020,TwS
 1027000151,1027,Interferon beta 1a,15,with Index date: May 2020,TwS
-1028000151,1028,Interferon beta 1a,15,with Index date: May 2020,TwS
+1028000151,1028,Interferon alfa 2a,15,with Index date: May 2020,TwS
 1029000151,1029,favipiravir,15,with Index date: May 2020,TwS
 1030000151,1030,Remdesivir,15,with Index date: May 2020,TwS
 1031000151,1031,ribavirin,15,with Index date: May 2020,TwS
@@ -1852,7 +1852,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025000161,1025,ritonavir/lopinavir,16,with Index date: Jun 2020,TwS
 1026000161,1026,Interferon beta 1b,16,with Index date: Jun 2020,TwS
 1027000161,1027,Interferon beta 1a,16,with Index date: Jun 2020,TwS
-1028000161,1028,Interferon beta 1a,16,with Index date: Jun 2020,TwS
+1028000161,1028,Interferon alfa 2a,16,with Index date: Jun 2020,TwS
 1029000161,1029,favipiravir,16,with Index date: Jun 2020,TwS
 1030000161,1030,Remdesivir,16,with Index date: Jun 2020,TwS
 1031000161,1031,ribavirin,16,with Index date: Jun 2020,TwS
@@ -1935,7 +1935,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020011,1025,ritonavir/lopinavir,2001,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwS
 1026020011,1026,Interferon beta 1b,2001,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwS
 1027020011,1027,Interferon beta 1a,2001,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwS
-1028020011,1028,Interferon beta 1a,2001,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwS
+1028020011,1028,Interferon alfa 2a,2001,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwS
 1029020011,1029,favipiravir,2001,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwS
 1030020011,1030,Remdesivir,2001,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwS
 1031020011,1031,ribavirin,2001,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwS
@@ -2018,7 +2018,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020021,1025,ritonavir/lopinavir,2002,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwS
 1026020021,1026,Interferon beta 1b,2002,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwS
 1027020021,1027,Interferon beta 1a,2002,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwS
-1028020021,1028,Interferon beta 1a,2002,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwS
+1028020021,1028,Interferon alfa 2a,2002,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwS
 1029020021,1029,favipiravir,2002,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwS
 1030020021,1030,Remdesivir,2002,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwS
 1031020021,1031,ribavirin,2002,with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwS
@@ -2101,7 +2101,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020031,1025,ritonavir/lopinavir,2003,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwS
 1026020031,1026,Interferon beta 1b,2003,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwS
 1027020031,1027,Interferon beta 1a,2003,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwS
-1028020031,1028,Interferon beta 1a,2003,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwS
+1028020031,1028,Interferon alfa 2a,2003,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwS
 1029020031,1029,favipiravir,2003,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwS
 1030020031,1030,Remdesivir,2003,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwS
 1031020031,1031,ribavirin,2003,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwS
@@ -2184,7 +2184,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020041,1025,ritonavir/lopinavir,2004,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwS
 1026020041,1026,Interferon beta 1b,2004,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwS
 1027020041,1027,Interferon beta 1a,2004,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwS
-1028020041,1028,Interferon beta 1a,2004,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwS
+1028020041,1028,Interferon alfa 2a,2004,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwS
 1029020041,1029,favipiravir,2004,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwS
 1030020041,1030,Remdesivir,2004,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwS
 1031020041,1031,ribavirin,2004,"with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwS
@@ -2267,7 +2267,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020051,1025,ritonavir/lopinavir,2005,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwS
 1026020051,1026,Interferon beta 1b,2005,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwS
 1027020051,1027,Interferon beta 1a,2005,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwS
-1028020051,1028,Interferon beta 1a,2005,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwS
+1028020051,1028,Interferon alfa 2a,2005,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwS
 1029020051,1029,favipiravir,2005,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwS
 1030020051,1030,Remdesivir,2005,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwS
 1031020051,1031,ribavirin,2005,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwS
@@ -2350,7 +2350,7 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1025020061,1025,ritonavir/lopinavir,2006,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwS
 1026020061,1026,Interferon beta 1b,2006,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwS
 1027020061,1027,Interferon beta 1a,2006,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwS
-1028020061,1028,Interferon beta 1a,2006,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwS
+1028020061,1028,Interferon alfa 2a,2006,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwS
 1029020061,1029,favipiravir,2006,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwS
 1030020061,1030,Remdesivir,2006,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwS
 1031020061,1031,ribavirin,2006,with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwS

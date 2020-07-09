@@ -59,58 +59,65 @@ runStudy <- function(connectionDetails = NULL,
   featureCohortIds <- cohorts[cohorts$cohortType == "feature", "cohortId"][[1]]
   
   # Start with the target cohorts
-  ParallelLogger::logInfo("**********************************************************")
-  ParallelLogger::logInfo("  ---- Creating target cohorts ---- ")
-  ParallelLogger::logInfo("**********************************************************")
-  instantiateCohortSet(connectionDetails = connectionDetails,
-                       connection = connection,
-                       cdmDatabaseSchema = cdmDatabaseSchema,
-                       oracleTempSchema = oracleTempSchema,
-                       cohortDatabaseSchema = cohortDatabaseSchema,
-                       cohortTable = cohortStagingTable,
-                       cohortIds = targetCohortIds,
-                       minCellCount = minCellCount,
-                       createCohortTable = TRUE,
-                       generateInclusionStats = FALSE,
-                       incremental = incremental,
-                       incrementalFolder = incrementalFolder,
-                       inclusionStatisticsFolder = exportFolder)
+  if (length(targetCohortIds) > 0) {
+    ParallelLogger::logInfo("**********************************************************")
+    ParallelLogger::logInfo("  ---- Creating target cohorts ---- ")
+    ParallelLogger::logInfo("**********************************************************")
+    instantiateCohortSet(connectionDetails = connectionDetails,
+                         connection = connection,
+                         cdmDatabaseSchema = cdmDatabaseSchema,
+                         oracleTempSchema = oracleTempSchema,
+                         cohortDatabaseSchema = cohortDatabaseSchema,
+                         cohortTable = cohortStagingTable,
+                         cohortIds = targetCohortIds,
+                         minCellCount = minCellCount,
+                         createCohortTable = TRUE,
+                         generateInclusionStats = FALSE,
+                         incremental = incremental,
+                         incrementalFolder = incrementalFolder,
+                         inclusionStatisticsFolder = exportFolder)
+  }
 
   # Next do the strata cohorts
-  ParallelLogger::logInfo("******************************************")
-  ParallelLogger::logInfo("  ---- Creating strata cohorts  ---- ")
-  ParallelLogger::logInfo("******************************************")
-  instantiateCohortSet(connectionDetails = connectionDetails,
-                       connection = connection,
-                       cdmDatabaseSchema = cdmDatabaseSchema,
-                       oracleTempSchema = oracleTempSchema,
-                       cohortDatabaseSchema = cohortDatabaseSchema,
-                       cohortTable = cohortStagingTable,
-                       cohortIds = strataCohortIds,
-                       minCellCount = minCellCount,
-                       createCohortTable = FALSE,
-                       generateInclusionStats = FALSE,
-                       incremental = incremental,
-                       incrementalFolder = incrementalFolder,
-                       inclusionStatisticsFolder = exportFolder)
+  if (length(strataCohortIds) > 0) {
+    ParallelLogger::logInfo("******************************************")
+    ParallelLogger::logInfo("  ---- Creating strata cohorts  ---- ")
+    ParallelLogger::logInfo("******************************************")
+    instantiateCohortSet(connectionDetails = connectionDetails,
+                         connection = connection,
+                         cdmDatabaseSchema = cdmDatabaseSchema,
+                         oracleTempSchema = oracleTempSchema,
+                         cohortDatabaseSchema = cohortDatabaseSchema,
+                         cohortTable = cohortStagingTable,
+                         cohortIds = strataCohortIds,
+                         minCellCount = minCellCount,
+                         createCohortTable = FALSE,
+                         generateInclusionStats = FALSE,
+                         incremental = incremental,
+                         incrementalFolder = incrementalFolder,
+                         inclusionStatisticsFolder = exportFolder)
+  }
+  
+  if (length(featureCohortIds) > 0) {
+    # Create the feature cohorts
+    ParallelLogger::logInfo("**********************************************************")
+    ParallelLogger::logInfo(" ---- Creating feature cohorts ---- ")
+    ParallelLogger::logInfo("**********************************************************")
+    instantiateCohortSet(connectionDetails = connectionDetails,
+                         connection = connection,
+                         cdmDatabaseSchema = cdmDatabaseSchema,
+                         oracleTempSchema = oracleTempSchema,
+                         cohortDatabaseSchema = cohortDatabaseSchema,
+                         cohortTable = cohortStagingTable,
+                         cohortIds = featureCohortIds,
+                         minCellCount = minCellCount,
+                         createCohortTable = FALSE,
+                         generateInclusionStats = FALSE,
+                         incremental = incremental,
+                         incrementalFolder = incrementalFolder,
+                         inclusionStatisticsFolder = exportFolder)
+  }
 
-  # Create the feature cohorts
-  ParallelLogger::logInfo("**********************************************************")
-  ParallelLogger::logInfo(" ---- Creating feature cohorts ---- ")
-  ParallelLogger::logInfo("**********************************************************")
-  instantiateCohortSet(connectionDetails = connectionDetails,
-                       connection = connection,
-                       cdmDatabaseSchema = cdmDatabaseSchema,
-                       oracleTempSchema = oracleTempSchema,
-                       cohortDatabaseSchema = cohortDatabaseSchema,
-                       cohortTable = cohortStagingTable,
-                       cohortIds = featureCohortIds,
-                       minCellCount = minCellCount,
-                       createCohortTable = FALSE,
-                       generateInclusionStats = FALSE,
-                       incremental = incremental,
-                       incrementalFolder = incrementalFolder,
-                       inclusionStatisticsFolder = exportFolder)
 
   # Create the stratified cohorts
   ParallelLogger::logInfo("**********************************************************")
