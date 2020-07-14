@@ -20,13 +20,13 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
 oracleTempSchema <- NULL
 
 # Details specific to the database:
-databaseId <- "CDM_Premier_COVID_v1240"
-databaseName <- "CDM_Premier_COVID_v1240"
-databaseDescription <- "CDM_Premier_COVID_v1240"
+databaseId <- "CDM_OPTUM_EHR_COVID_v1239"
+databaseName <- "CDM_OPTUM_EHR_COVID_v1239"
+databaseDescription <- "CDM_OPTUM_EHR_COVID_v1239"
 
 # Details for connecting to the CDM and storing the results
 outputFolder <- file.path("E:/SkeletonCharybdis/Runs", databaseId)
-cdmDatabaseSchema <- "CDM_Premier_COVID_v1240.dbo"
+cdmDatabaseSchema <- "CDM_OPTUM_EHR_COVID_v1239.dbo"
 cohortDatabaseSchema <- "scratch.dbo"
 cohortTable <- paste0("AS_SkeletonCharybdis_", databaseId)
 cohortStagingTable <- paste0(cohortTable, "_stg")

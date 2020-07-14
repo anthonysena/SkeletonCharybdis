@@ -199,13 +199,13 @@ targetCohorts <- targetCohorts[, match(colNames, names(targetCohorts))]
 names(targetCohorts) <- c("targetName", "targetId")
 # Strata cohorts
 bulkStrata <- bulkStrata[, match(colNames, names(bulkStrata))]
-bulkStrata$name <- paste("with", bulkStrata$name)
+bulkStrata$withStrataName <- paste("with", bulkStrata$name)
 bulkStrata$inverseName <- paste("without", bulkStrata$name)
 atlasCohortStrata <- atlasCohortStrata[, match(colNames, names(atlasCohortStrata))]
-atlasCohortStrata$name <- paste("with ", atlasCohortStrata$name) 
+atlasCohortStrata$withStrataName <- paste("with ", atlasCohortStrata$name) 
 atlasCohortStrata$inverseName <- paste("without ", atlasCohortStrata$name) 
 strata <- rbind(bulkStrata, atlasCohortStrata)
-names(strata) <- c("strataName", "strataId", "strataInverseName")
+names(strata) <- c("name", "strataId", "strataName", "strataInverseName")
 # Get all of the unique combinations of target + strata
 targetStrataCP <- do.call(expand.grid, lapply(list(targetCohorts$targetId, strata$strataId), unique))
 names(targetStrataCP) <- c("targetId", "strataId")
@@ -246,3 +246,12 @@ readr::write_csv(targetStrataXRef, file.path(settingsPath, "targetStrataXref.csv
 
 # Store environment in which the study was executed -----------------------
 OhdsiRTools::insertEnvironmentSnapshotInPackage("SkeletonCharybdis")
+
+# Check all files for UTF-8 Encoding and ensure
+# there are no non-ASCII characters
+OhdsiRTools::findNonAsciiStringsInFolder()
+
+packageFiles <- list.files(path=".", recursive = TRUE)
+if (!all(utf8::utf8_valid(packageFiles))) {
+  print("Found invalid UTF-8 encoded files")
+}

@@ -82,504 +82,504 @@ cohortId,targetId,targetName,strataId,strataName,cohortType
 1081,1081,bicalutamide,0,All,Target
 1082,1082,emtricitabine,0,All,Target
 1083,1083,tacrolimus,0,All,Target
-1001020012,1001,Hydroxychloroquine ,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1002020012,1002,Hydroxychloroquine + Azithromycin ,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1003020012,1003,Hydroxychloroquine + Fluoroquinolones,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1004020012,1004,Hydroxychloroquine + Amoxicillin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1005020012,1005,Hydroxychloroquine + ceftriaxone,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1006020012,1006,Chloroquine,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1007020012,1007,Azithromycin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1008020012,1008,Fluoroquinolones,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1009020012,1009,Amoxicillin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1010020012,1010,Ceftriaxone,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1011020012,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1012020012,1012,tocilizumab,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1013020012,1013,siltuximab,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1014020012,1014,sarilumab,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1015020012,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1016020012,1016,baricitinib,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1017020012,1017,tofacitinib,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1018020012,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1019020012,1019,adalimumab,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1020020012,1020,etanercept,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1021020012,1021,infliximab,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1022020012,1022,ustekinumab,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1023020012,1023,Anakinra,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1024020012,1024,HIV Protease inhibitors,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1025020012,1025,ritonavir/lopinavir,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1026020012,1026,Interferon beta 1b,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1027020012,1027,Interferon beta 1a,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1028020012,1028,Interferon alfa 2a,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1029020012,1029,favipiravir,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1030020012,1030,Remdesivir,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1031020012,1031,ribavirin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1032020012,1032,oseltamivir,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1033020012,1033,Ivermectin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1034020012,1034,itraconazole,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1035020012,1035,warfarin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1036020012,1036,heparin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1037020012,1037,enoxaparin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1038020012,1038,edoxaban,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1039020012,1039,dabigatran,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1040020012,1040,rivaroxaban,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1041020012,1041,acenocoumarol,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1042020012,1042,apixaban,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1043020012,1043,bemiparin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1044020012,1044,clopidogrel,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1045020012,1045,aspirin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1046020012,1046,prasugrel,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1047020012,1047,alteplase,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1048020012,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1049020012,1049,tranexamic acid,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1050020012,1050,Ruxolitinib,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1051020012,1051,Siltuximab,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1052020012,1052,ACE inhibitors,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1053020012,1053,Angiotensin receptor blockers (ARBs),2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1054020012,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1055020012,1055,Thiazide or thiazide-like diuretics,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1056020012,1056,Hydrocortisone,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1057020012,1057,dexamethasone,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1058020012,1058,prednisone or prednisolone,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1059020012,1059,raloxifene,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1060020012,1060,Bevacizumab,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1061020012,1061,Fingolimod,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1062020012,1062,eculizumab ,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1063020012,1063,Statins,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1064020012,1064,metformin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1065020012,1065,DPP-4 inhibitors,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1066020012,1066,SGLT2 inhibitors,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1067020012,1067,GLP1 inhibitors,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1068020012,1068,H2 receptor antagonist,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1069020012,1069,famotidine,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1070020012,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1071020012,1071,prazosin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1072020012,1072,terazosin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1073020012,1073,doxazosin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1074020012,1074,tamsulosin,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1075020012,1075,BCG vaccine,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1076020012,1076,Colchicine,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1077020012,1077,Losartan,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1078020012,1078,cholecalciferol,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1079020012,1079,Ibrutinib,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1080020012,1080,abiraterone,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1081020012,1081,bicalutamide,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1082020012,1082,emtricitabine,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1083020012,1083,tacrolimus,2001,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
-1001020022,1001,Hydroxychloroquine ,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1002020022,1002,Hydroxychloroquine + Azithromycin ,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1003020022,1003,Hydroxychloroquine + Fluoroquinolones,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1004020022,1004,Hydroxychloroquine + Amoxicillin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1005020022,1005,Hydroxychloroquine + ceftriaxone,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1006020022,1006,Chloroquine,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1007020022,1007,Azithromycin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1008020022,1008,Fluoroquinolones,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1009020022,1009,Amoxicillin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1010020022,1010,Ceftriaxone,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1011020022,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1012020022,1012,tocilizumab,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1013020022,1013,siltuximab,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1014020022,1014,sarilumab,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1015020022,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1016020022,1016,baricitinib,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1017020022,1017,tofacitinib,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1018020022,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1019020022,1019,adalimumab,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1020020022,1020,etanercept,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1021020022,1021,infliximab,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1022020022,1022,ustekinumab,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1023020022,1023,Anakinra,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1024020022,1024,HIV Protease inhibitors,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1025020022,1025,ritonavir/lopinavir,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1026020022,1026,Interferon beta 1b,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1027020022,1027,Interferon beta 1a,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1028020022,1028,Interferon alfa 2a,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1029020022,1029,favipiravir,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1030020022,1030,Remdesivir,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1031020022,1031,ribavirin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1032020022,1032,oseltamivir,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1033020022,1033,Ivermectin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1034020022,1034,itraconazole,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1035020022,1035,warfarin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1036020022,1036,heparin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1037020022,1037,enoxaparin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1038020022,1038,edoxaban,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1039020022,1039,dabigatran,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1040020022,1040,rivaroxaban,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1041020022,1041,acenocoumarol,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1042020022,1042,apixaban,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1043020022,1043,bemiparin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1044020022,1044,clopidogrel,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1045020022,1045,aspirin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1046020022,1046,prasugrel,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1047020022,1047,alteplase,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1048020022,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1049020022,1049,tranexamic acid,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1050020022,1050,Ruxolitinib,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1051020022,1051,Siltuximab,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1052020022,1052,ACE inhibitors,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1053020022,1053,Angiotensin receptor blockers (ARBs),2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1054020022,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1055020022,1055,Thiazide or thiazide-like diuretics,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1056020022,1056,Hydrocortisone,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1057020022,1057,dexamethasone,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1058020022,1058,prednisone or prednisolone,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1059020022,1059,raloxifene,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1060020022,1060,Bevacizumab,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1061020022,1061,Fingolimod,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1062020022,1062,eculizumab ,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1063020022,1063,Statins,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1064020022,1064,metformin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1065020022,1065,DPP-4 inhibitors,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1066020022,1066,SGLT2 inhibitors,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1067020022,1067,GLP1 inhibitors,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1068020022,1068,H2 receptor antagonist,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1069020022,1069,famotidine,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1070020022,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1071020022,1071,prazosin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1072020022,1072,terazosin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1073020022,1073,doxazosin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1074020022,1074,tamsulosin,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1075020022,1075,BCG vaccine,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1076020022,1076,Colchicine,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1077020022,1077,Losartan,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1078020022,1078,cholecalciferol,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1079020022,1079,Ibrutinib,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1080020022,1080,abiraterone,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1081020022,1081,bicalutamide,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1082020022,1082,emtricitabine,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1083020022,1083,tacrolimus,2002,without  with  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
-1001020032,1001,Hydroxychloroquine ,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1002020032,1002,Hydroxychloroquine + Azithromycin ,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1003020032,1003,Hydroxychloroquine + Fluoroquinolones,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1004020032,1004,Hydroxychloroquine + Amoxicillin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1005020032,1005,Hydroxychloroquine + ceftriaxone,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1006020032,1006,Chloroquine,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1007020032,1007,Azithromycin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1008020032,1008,Fluoroquinolones,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1009020032,1009,Amoxicillin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1010020032,1010,Ceftriaxone,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1011020032,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1012020032,1012,tocilizumab,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1013020032,1013,siltuximab,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1014020032,1014,sarilumab,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1015020032,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1016020032,1016,baricitinib,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1017020032,1017,tofacitinib,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1018020032,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1019020032,1019,adalimumab,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1020020032,1020,etanercept,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1021020032,1021,infliximab,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1022020032,1022,ustekinumab,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1023020032,1023,Anakinra,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1024020032,1024,HIV Protease inhibitors,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1025020032,1025,ritonavir/lopinavir,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1026020032,1026,Interferon beta 1b,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1027020032,1027,Interferon beta 1a,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1028020032,1028,Interferon alfa 2a,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1029020032,1029,favipiravir,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1030020032,1030,Remdesivir,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1031020032,1031,ribavirin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1032020032,1032,oseltamivir,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1033020032,1033,Ivermectin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1034020032,1034,itraconazole,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1035020032,1035,warfarin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1036020032,1036,heparin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1037020032,1037,enoxaparin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1038020032,1038,edoxaban,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1039020032,1039,dabigatran,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1040020032,1040,rivaroxaban,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1041020032,1041,acenocoumarol,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1042020032,1042,apixaban,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1043020032,1043,bemiparin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1044020032,1044,clopidogrel,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1045020032,1045,aspirin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1046020032,1046,prasugrel,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1047020032,1047,alteplase,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1048020032,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1049020032,1049,tranexamic acid,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1050020032,1050,Ruxolitinib,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1051020032,1051,Siltuximab,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1052020032,1052,ACE inhibitors,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1053020032,1053,Angiotensin receptor blockers (ARBs),2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1054020032,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1055020032,1055,Thiazide or thiazide-like diuretics,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1056020032,1056,Hydrocortisone,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1057020032,1057,dexamethasone,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1058020032,1058,prednisone or prednisolone,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1059020032,1059,raloxifene,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1060020032,1060,Bevacizumab,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1061020032,1061,Fingolimod,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1062020032,1062,eculizumab ,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1063020032,1063,Statins,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1064020032,1064,metformin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1065020032,1065,DPP-4 inhibitors,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1066020032,1066,SGLT2 inhibitors,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1067020032,1067,GLP1 inhibitors,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1068020032,1068,H2 receptor antagonist,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1069020032,1069,famotidine,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1070020032,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1071020032,1071,prazosin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1072020032,1072,terazosin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1073020032,1073,doxazosin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1074020032,1074,tamsulosin,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1075020032,1075,BCG vaccine,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1076020032,1076,Colchicine,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1077020032,1077,Losartan,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1078020032,1078,cholecalciferol,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1079020032,1079,Ibrutinib,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1080020032,1080,abiraterone,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1081020032,1081,bicalutamide,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1082020032,1082,emtricitabine,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1083020032,1083,tacrolimus,2003,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
-1001020042,1001,Hydroxychloroquine ,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1002020042,1002,Hydroxychloroquine + Azithromycin ,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1003020042,1003,Hydroxychloroquine + Fluoroquinolones,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1004020042,1004,Hydroxychloroquine + Amoxicillin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1005020042,1005,Hydroxychloroquine + ceftriaxone,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1006020042,1006,Chloroquine,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1007020042,1007,Azithromycin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1008020042,1008,Fluoroquinolones,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1009020042,1009,Amoxicillin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1010020042,1010,Ceftriaxone,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1011020042,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1012020042,1012,tocilizumab,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1013020042,1013,siltuximab,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1014020042,1014,sarilumab,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1015020042,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1016020042,1016,baricitinib,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1017020042,1017,tofacitinib,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1018020042,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1019020042,1019,adalimumab,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1020020042,1020,etanercept,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1021020042,1021,infliximab,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1022020042,1022,ustekinumab,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1023020042,1023,Anakinra,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1024020042,1024,HIV Protease inhibitors,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1025020042,1025,ritonavir/lopinavir,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1026020042,1026,Interferon beta 1b,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1027020042,1027,Interferon beta 1a,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1028020042,1028,Interferon alfa 2a,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1029020042,1029,favipiravir,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1030020042,1030,Remdesivir,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1031020042,1031,ribavirin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1032020042,1032,oseltamivir,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1033020042,1033,Ivermectin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1034020042,1034,itraconazole,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1035020042,1035,warfarin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1036020042,1036,heparin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1037020042,1037,enoxaparin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1038020042,1038,edoxaban,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1039020042,1039,dabigatran,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1040020042,1040,rivaroxaban,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1041020042,1041,acenocoumarol,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1042020042,1042,apixaban,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1043020042,1043,bemiparin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1044020042,1044,clopidogrel,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1045020042,1045,aspirin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1046020042,1046,prasugrel,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1047020042,1047,alteplase,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1048020042,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1049020042,1049,tranexamic acid,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1050020042,1050,Ruxolitinib,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1051020042,1051,Siltuximab,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1052020042,1052,ACE inhibitors,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1053020042,1053,Angiotensin receptor blockers (ARBs),2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1054020042,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1055020042,1055,Thiazide or thiazide-like diuretics,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1056020042,1056,Hydrocortisone,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1057020042,1057,dexamethasone,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1058020042,1058,prednisone or prednisolone,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1059020042,1059,raloxifene,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1060020042,1060,Bevacizumab,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1061020042,1061,Fingolimod,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1062020042,1062,eculizumab ,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1063020042,1063,Statins,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1064020042,1064,metformin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1065020042,1065,DPP-4 inhibitors,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1066020042,1066,SGLT2 inhibitors,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1067020042,1067,GLP1 inhibitors,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1068020042,1068,H2 receptor antagonist,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1069020042,1069,famotidine,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1070020042,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1071020042,1071,prazosin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1072020042,1072,terazosin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1073020042,1073,doxazosin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1074020042,1074,tamsulosin,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1075020042,1075,BCG vaccine,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1076020042,1076,Colchicine,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1077020042,1077,Losartan,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1078020042,1078,cholecalciferol,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1079020042,1079,Ibrutinib,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1080020042,1080,abiraterone,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1081020042,1081,bicalutamide,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1082020042,1082,emtricitabine,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1083020042,1083,tacrolimus,2004,"without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
-1001020052,1001,Hydroxychloroquine ,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1002020052,1002,Hydroxychloroquine + Azithromycin ,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1003020052,1003,Hydroxychloroquine + Fluoroquinolones,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1004020052,1004,Hydroxychloroquine + Amoxicillin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1005020052,1005,Hydroxychloroquine + ceftriaxone,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1006020052,1006,Chloroquine,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1007020052,1007,Azithromycin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1008020052,1008,Fluoroquinolones,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1009020052,1009,Amoxicillin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1010020052,1010,Ceftriaxone,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1011020052,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1012020052,1012,tocilizumab,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1013020052,1013,siltuximab,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1014020052,1014,sarilumab,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1015020052,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1016020052,1016,baricitinib,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1017020052,1017,tofacitinib,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1018020052,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1019020052,1019,adalimumab,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1020020052,1020,etanercept,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1021020052,1021,infliximab,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1022020052,1022,ustekinumab,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1023020052,1023,Anakinra,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1024020052,1024,HIV Protease inhibitors,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1025020052,1025,ritonavir/lopinavir,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1026020052,1026,Interferon beta 1b,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1027020052,1027,Interferon beta 1a,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1028020052,1028,Interferon alfa 2a,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1029020052,1029,favipiravir,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1030020052,1030,Remdesivir,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1031020052,1031,ribavirin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1032020052,1032,oseltamivir,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1033020052,1033,Ivermectin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1034020052,1034,itraconazole,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1035020052,1035,warfarin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1036020052,1036,heparin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1037020052,1037,enoxaparin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1038020052,1038,edoxaban,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1039020052,1039,dabigatran,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1040020052,1040,rivaroxaban,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1041020052,1041,acenocoumarol,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1042020052,1042,apixaban,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1043020052,1043,bemiparin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1044020052,1044,clopidogrel,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1045020052,1045,aspirin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1046020052,1046,prasugrel,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1047020052,1047,alteplase,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1048020052,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1049020052,1049,tranexamic acid,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1050020052,1050,Ruxolitinib,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1051020052,1051,Siltuximab,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1052020052,1052,ACE inhibitors,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1053020052,1053,Angiotensin receptor blockers (ARBs),2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1054020052,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1055020052,1055,Thiazide or thiazide-like diuretics,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1056020052,1056,Hydrocortisone,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1057020052,1057,dexamethasone,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1058020052,1058,prednisone or prednisolone,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1059020052,1059,raloxifene,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1060020052,1060,Bevacizumab,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1061020052,1061,Fingolimod,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1062020052,1062,eculizumab ,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1063020052,1063,Statins,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1064020052,1064,metformin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1065020052,1065,DPP-4 inhibitors,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1066020052,1066,SGLT2 inhibitors,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1067020052,1067,GLP1 inhibitors,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1068020052,1068,H2 receptor antagonist,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1069020052,1069,famotidine,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1070020052,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1071020052,1071,prazosin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1072020052,1072,terazosin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1073020052,1073,doxazosin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1074020052,1074,tamsulosin,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1075020052,1075,BCG vaccine,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1076020052,1076,Colchicine,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1077020052,1077,Losartan,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1078020052,1078,cholecalciferol,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1079020052,1079,Ibrutinib,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1080020052,1080,abiraterone,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1081020052,1081,bicalutamide,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1082020052,1082,emtricitabine,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1083020052,1083,tacrolimus,2005,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
-1001020062,1001,Hydroxychloroquine ,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1002020062,1002,Hydroxychloroquine + Azithromycin ,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1003020062,1003,Hydroxychloroquine + Fluoroquinolones,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1004020062,1004,Hydroxychloroquine + Amoxicillin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1005020062,1005,Hydroxychloroquine + ceftriaxone,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1006020062,1006,Chloroquine,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1007020062,1007,Azithromycin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1008020062,1008,Fluoroquinolones,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1009020062,1009,Amoxicillin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1010020062,1010,Ceftriaxone,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1011020062,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1012020062,1012,tocilizumab,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1013020062,1013,siltuximab,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1014020062,1014,sarilumab,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1015020062,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1016020062,1016,baricitinib,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1017020062,1017,tofacitinib,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1018020062,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1019020062,1019,adalimumab,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1020020062,1020,etanercept,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1021020062,1021,infliximab,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1022020062,1022,ustekinumab,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1023020062,1023,Anakinra,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1024020062,1024,HIV Protease inhibitors,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1025020062,1025,ritonavir/lopinavir,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1026020062,1026,Interferon beta 1b,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1027020062,1027,Interferon beta 1a,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1028020062,1028,Interferon alfa 2a,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1029020062,1029,favipiravir,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1030020062,1030,Remdesivir,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1031020062,1031,ribavirin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1032020062,1032,oseltamivir,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1033020062,1033,Ivermectin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1034020062,1034,itraconazole,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1035020062,1035,warfarin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1036020062,1036,heparin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1037020062,1037,enoxaparin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1038020062,1038,edoxaban,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1039020062,1039,dabigatran,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1040020062,1040,rivaroxaban,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1041020062,1041,acenocoumarol,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1042020062,1042,apixaban,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1043020062,1043,bemiparin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1044020062,1044,clopidogrel,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1045020062,1045,aspirin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1046020062,1046,prasugrel,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1047020062,1047,alteplase,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1048020062,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1049020062,1049,tranexamic acid,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1050020062,1050,Ruxolitinib,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1051020062,1051,Siltuximab,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1052020062,1052,ACE inhibitors,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1053020062,1053,Angiotensin receptor blockers (ARBs),2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1054020062,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1055020062,1055,Thiazide or thiazide-like diuretics,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1056020062,1056,Hydrocortisone,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1057020062,1057,dexamethasone,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1058020062,1058,prednisone or prednisolone,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1059020062,1059,raloxifene,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1060020062,1060,Bevacizumab,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1061020062,1061,Fingolimod,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1062020062,1062,eculizumab ,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1063020062,1063,Statins,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1064020062,1064,metformin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1065020062,1065,DPP-4 inhibitors,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1066020062,1066,SGLT2 inhibitors,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1067020062,1067,GLP1 inhibitors,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1068020062,1068,H2 receptor antagonist,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1069020062,1069,famotidine,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1070020062,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1071020062,1071,prazosin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1072020062,1072,terazosin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1073020062,1073,doxazosin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1074020062,1074,tamsulosin,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1075020062,1075,BCG vaccine,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1076020062,1076,Colchicine,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1077020062,1077,Losartan,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1078020062,1078,cholecalciferol,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1079020062,1079,Ibrutinib,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1080020062,1080,abiraterone,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1081020062,1081,bicalutamide,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1082020062,1082,emtricitabine,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
-1083020062,1083,tacrolimus,2006,without  with  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1001020012,1001,Hydroxychloroquine ,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1002020012,1002,Hydroxychloroquine + Azithromycin ,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1003020012,1003,Hydroxychloroquine + Fluoroquinolones,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1004020012,1004,Hydroxychloroquine + Amoxicillin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1005020012,1005,Hydroxychloroquine + ceftriaxone,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1006020012,1006,Chloroquine,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1007020012,1007,Azithromycin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1008020012,1008,Fluoroquinolones,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1009020012,1009,Amoxicillin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1010020012,1010,Ceftriaxone,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1011020012,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1012020012,1012,tocilizumab,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1013020012,1013,siltuximab,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1014020012,1014,sarilumab,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1015020012,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1016020012,1016,baricitinib,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1017020012,1017,tofacitinib,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1018020012,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1019020012,1019,adalimumab,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1020020012,1020,etanercept,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1021020012,1021,infliximab,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1022020012,1022,ustekinumab,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1023020012,1023,Anakinra,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1024020012,1024,HIV Protease inhibitors,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1025020012,1025,ritonavir/lopinavir,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1026020012,1026,Interferon beta 1b,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1027020012,1027,Interferon beta 1a,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1028020012,1028,Interferon alfa 2a,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1029020012,1029,favipiravir,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1030020012,1030,Remdesivir,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1031020012,1031,ribavirin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1032020012,1032,oseltamivir,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1033020012,1033,Ivermectin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1034020012,1034,itraconazole,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1035020012,1035,warfarin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1036020012,1036,heparin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1037020012,1037,enoxaparin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1038020012,1038,edoxaban,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1039020012,1039,dabigatran,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1040020012,1040,rivaroxaban,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1041020012,1041,acenocoumarol,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1042020012,1042,apixaban,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1043020012,1043,bemiparin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1044020012,1044,clopidogrel,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1045020012,1045,aspirin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1046020012,1046,prasugrel,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1047020012,1047,alteplase,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1048020012,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1049020012,1049,tranexamic acid,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1050020012,1050,Ruxolitinib,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1051020012,1051,Siltuximab,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1052020012,1052,ACE inhibitors,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1053020012,1053,Angiotensin receptor blockers (ARBs),2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1054020012,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1055020012,1055,Thiazide or thiazide-like diuretics,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1056020012,1056,Hydrocortisone,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1057020012,1057,dexamethasone,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1058020012,1058,prednisone or prednisolone,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1059020012,1059,raloxifene,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1060020012,1060,Bevacizumab,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1061020012,1061,Fingolimod,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1062020012,1062,eculizumab ,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1063020012,1063,Statins,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1064020012,1064,metformin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1065020012,1065,DPP-4 inhibitors,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1066020012,1066,SGLT2 inhibitors,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1067020012,1067,GLP1 inhibitors,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1068020012,1068,H2 receptor antagonist,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1069020012,1069,famotidine,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1070020012,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1071020012,1071,prazosin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1072020012,1072,terazosin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1073020012,1073,doxazosin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1074020012,1074,tamsulosin,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1075020012,1075,BCG vaccine,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1076020012,1076,Colchicine,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1077020012,1077,Losartan,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1078020012,1078,cholecalciferol,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1079020012,1079,Ibrutinib,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1080020012,1080,abiraterone,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1081020012,1081,bicalutamide,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1082020012,1082,emtricitabine,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1083020012,1083,tacrolimus,2001,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services,TwoS
+1001020022,1001,Hydroxychloroquine ,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1002020022,1002,Hydroxychloroquine + Azithromycin ,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1003020022,1003,Hydroxychloroquine + Fluoroquinolones,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1004020022,1004,Hydroxychloroquine + Amoxicillin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1005020022,1005,Hydroxychloroquine + ceftriaxone,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1006020022,1006,Chloroquine,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1007020022,1007,Azithromycin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1008020022,1008,Fluoroquinolones,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1009020022,1009,Amoxicillin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1010020022,1010,Ceftriaxone,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1011020022,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1012020022,1012,tocilizumab,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1013020022,1013,siltuximab,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1014020022,1014,sarilumab,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1015020022,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1016020022,1016,baricitinib,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1017020022,1017,tofacitinib,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1018020022,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1019020022,1019,adalimumab,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1020020022,1020,etanercept,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1021020022,1021,infliximab,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1022020022,1022,ustekinumab,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1023020022,1023,Anakinra,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1024020022,1024,HIV Protease inhibitors,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1025020022,1025,ritonavir/lopinavir,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1026020022,1026,Interferon beta 1b,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1027020022,1027,Interferon beta 1a,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1028020022,1028,Interferon alfa 2a,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1029020022,1029,favipiravir,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1030020022,1030,Remdesivir,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1031020022,1031,ribavirin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1032020022,1032,oseltamivir,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1033020022,1033,Ivermectin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1034020022,1034,itraconazole,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1035020022,1035,warfarin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1036020022,1036,heparin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1037020022,1037,enoxaparin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1038020022,1038,edoxaban,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1039020022,1039,dabigatran,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1040020022,1040,rivaroxaban,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1041020022,1041,acenocoumarol,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1042020022,1042,apixaban,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1043020022,1043,bemiparin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1044020022,1044,clopidogrel,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1045020022,1045,aspirin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1046020022,1046,prasugrel,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1047020022,1047,alteplase,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1048020022,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1049020022,1049,tranexamic acid,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1050020022,1050,Ruxolitinib,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1051020022,1051,Siltuximab,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1052020022,1052,ACE inhibitors,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1053020022,1053,Angiotensin receptor blockers (ARBs),2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1054020022,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1055020022,1055,Thiazide or thiazide-like diuretics,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1056020022,1056,Hydrocortisone,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1057020022,1057,dexamethasone,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1058020022,1058,prednisone or prednisolone,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1059020022,1059,raloxifene,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1060020022,1060,Bevacizumab,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1061020022,1061,Fingolimod,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1062020022,1062,eculizumab ,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1063020022,1063,Statins,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1064020022,1064,metformin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1065020022,1065,DPP-4 inhibitors,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1066020022,1066,SGLT2 inhibitors,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1067020022,1067,GLP1 inhibitors,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1068020022,1068,H2 receptor antagonist,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1069020022,1069,famotidine,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1070020022,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1071020022,1071,prazosin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1072020022,1072,terazosin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1073020022,1073,doxazosin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1074020022,1074,tamsulosin,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1075020022,1075,BCG vaccine,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1076020022,1076,Colchicine,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1077020022,1077,Losartan,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1078020022,1078,cholecalciferol,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1079020022,1079,Ibrutinib,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1080020022,1080,abiraterone,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1081020022,1081,bicalutamide,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1082020022,1082,emtricitabine,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1083020022,1083,tacrolimus,2002,without  Persons with a COVID-19 diagnosis record or a SARS-CoV-2 positive test prior to inpatient visit or intensive services and 365d prior observation,TwoS
+1001020032,1001,Hydroxychloroquine ,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1002020032,1002,Hydroxychloroquine + Azithromycin ,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1003020032,1003,Hydroxychloroquine + Fluoroquinolones,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1004020032,1004,Hydroxychloroquine + Amoxicillin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1005020032,1005,Hydroxychloroquine + ceftriaxone,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1006020032,1006,Chloroquine,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1007020032,1007,Azithromycin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1008020032,1008,Fluoroquinolones,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1009020032,1009,Amoxicillin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1010020032,1010,Ceftriaxone,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1011020032,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1012020032,1012,tocilizumab,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1013020032,1013,siltuximab,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1014020032,1014,sarilumab,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1015020032,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1016020032,1016,baricitinib,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1017020032,1017,tofacitinib,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1018020032,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1019020032,1019,adalimumab,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1020020032,1020,etanercept,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1021020032,1021,infliximab,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1022020032,1022,ustekinumab,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1023020032,1023,Anakinra,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1024020032,1024,HIV Protease inhibitors,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1025020032,1025,ritonavir/lopinavir,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1026020032,1026,Interferon beta 1b,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1027020032,1027,Interferon beta 1a,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1028020032,1028,Interferon alfa 2a,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1029020032,1029,favipiravir,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1030020032,1030,Remdesivir,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1031020032,1031,ribavirin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1032020032,1032,oseltamivir,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1033020032,1033,Ivermectin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1034020032,1034,itraconazole,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1035020032,1035,warfarin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1036020032,1036,heparin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1037020032,1037,enoxaparin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1038020032,1038,edoxaban,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1039020032,1039,dabigatran,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1040020032,1040,rivaroxaban,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1041020032,1041,acenocoumarol,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1042020032,1042,apixaban,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1043020032,1043,bemiparin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1044020032,1044,clopidogrel,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1045020032,1045,aspirin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1046020032,1046,prasugrel,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1047020032,1047,alteplase,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1048020032,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1049020032,1049,tranexamic acid,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1050020032,1050,Ruxolitinib,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1051020032,1051,Siltuximab,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1052020032,1052,ACE inhibitors,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1053020032,1053,Angiotensin receptor blockers (ARBs),2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1054020032,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1055020032,1055,Thiazide or thiazide-like diuretics,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1056020032,1056,Hydrocortisone,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1057020032,1057,dexamethasone,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1058020032,1058,prednisone or prednisolone,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1059020032,1059,raloxifene,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1060020032,1060,Bevacizumab,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1061020032,1061,Fingolimod,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1062020032,1062,eculizumab ,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1063020032,1063,Statins,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1064020032,1064,metformin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1065020032,1065,DPP-4 inhibitors,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1066020032,1066,SGLT2 inhibitors,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1067020032,1067,GLP1 inhibitors,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1068020032,1068,H2 receptor antagonist,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1069020032,1069,famotidine,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1070020032,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1071020032,1071,prazosin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1072020032,1072,terazosin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1073020032,1073,doxazosin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1074020032,1074,tamsulosin,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1075020032,1075,BCG vaccine,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1076020032,1076,Colchicine,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1077020032,1077,Losartan,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1078020032,1078,cholecalciferol,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1079020032,1079,Ibrutinib,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1080020032,1080,abiraterone,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1081020032,1081,bicalutamide,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1082020032,1082,emtricitabine,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1083020032,1083,tacrolimus,2003,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services",TwoS
+1001020042,1001,Hydroxychloroquine ,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1002020042,1002,Hydroxychloroquine + Azithromycin ,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1003020042,1003,Hydroxychloroquine + Fluoroquinolones,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1004020042,1004,Hydroxychloroquine + Amoxicillin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1005020042,1005,Hydroxychloroquine + ceftriaxone,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1006020042,1006,Chloroquine,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1007020042,1007,Azithromycin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1008020042,1008,Fluoroquinolones,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1009020042,1009,Amoxicillin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1010020042,1010,Ceftriaxone,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1011020042,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1012020042,1012,tocilizumab,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1013020042,1013,siltuximab,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1014020042,1014,sarilumab,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1015020042,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1016020042,1016,baricitinib,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1017020042,1017,tofacitinib,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1018020042,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1019020042,1019,adalimumab,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1020020042,1020,etanercept,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1021020042,1021,infliximab,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1022020042,1022,ustekinumab,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1023020042,1023,Anakinra,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1024020042,1024,HIV Protease inhibitors,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1025020042,1025,ritonavir/lopinavir,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1026020042,1026,Interferon beta 1b,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1027020042,1027,Interferon beta 1a,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1028020042,1028,Interferon alfa 2a,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1029020042,1029,favipiravir,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1030020042,1030,Remdesivir,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1031020042,1031,ribavirin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1032020042,1032,oseltamivir,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1033020042,1033,Ivermectin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1034020042,1034,itraconazole,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1035020042,1035,warfarin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1036020042,1036,heparin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1037020042,1037,enoxaparin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1038020042,1038,edoxaban,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1039020042,1039,dabigatran,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1040020042,1040,rivaroxaban,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1041020042,1041,acenocoumarol,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1042020042,1042,apixaban,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1043020042,1043,bemiparin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1044020042,1044,clopidogrel,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1045020042,1045,aspirin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1046020042,1046,prasugrel,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1047020042,1047,alteplase,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1048020042,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1049020042,1049,tranexamic acid,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1050020042,1050,Ruxolitinib,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1051020042,1051,Siltuximab,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1052020042,1052,ACE inhibitors,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1053020042,1053,Angiotensin receptor blockers (ARBs),2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1054020042,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1055020042,1055,Thiazide or thiazide-like diuretics,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1056020042,1056,Hydrocortisone,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1057020042,1057,dexamethasone,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1058020042,1058,prednisone or prednisolone,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1059020042,1059,raloxifene,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1060020042,1060,Bevacizumab,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1061020042,1061,Fingolimod,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1062020042,1062,eculizumab ,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1063020042,1063,Statins,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1064020042,1064,metformin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1065020042,1065,DPP-4 inhibitors,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1066020042,1066,SGLT2 inhibitors,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1067020042,1067,GLP1 inhibitors,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1068020042,1068,H2 receptor antagonist,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1069020042,1069,famotidine,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1070020042,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1071020042,1071,prazosin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1072020042,1072,terazosin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1073020042,1073,doxazosin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1074020042,1074,tamsulosin,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1075020042,1075,BCG vaccine,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1076020042,1076,Colchicine,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1077020042,1077,Losartan,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1078020042,1078,cholecalciferol,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1079020042,1079,Ibrutinib,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1080020042,1080,abiraterone,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1081020042,1081,bicalutamide,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1082020042,1082,emtricitabine,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1083020042,1083,tacrolimus,2004,"without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test, inpatient setting without or prior to intensive services and 365d prior observation",TwoS
+1001020052,1001,Hydroxychloroquine ,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1002020052,1002,Hydroxychloroquine + Azithromycin ,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1003020052,1003,Hydroxychloroquine + Fluoroquinolones,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1004020052,1004,Hydroxychloroquine + Amoxicillin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1005020052,1005,Hydroxychloroquine + ceftriaxone,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1006020052,1006,Chloroquine,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1007020052,1007,Azithromycin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1008020052,1008,Fluoroquinolones,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1009020052,1009,Amoxicillin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1010020052,1010,Ceftriaxone,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1011020052,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1012020052,1012,tocilizumab,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1013020052,1013,siltuximab,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1014020052,1014,sarilumab,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1015020052,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1016020052,1016,baricitinib,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1017020052,1017,tofacitinib,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1018020052,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1019020052,1019,adalimumab,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1020020052,1020,etanercept,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1021020052,1021,infliximab,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1022020052,1022,ustekinumab,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1023020052,1023,Anakinra,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1024020052,1024,HIV Protease inhibitors,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1025020052,1025,ritonavir/lopinavir,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1026020052,1026,Interferon beta 1b,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1027020052,1027,Interferon beta 1a,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1028020052,1028,Interferon alfa 2a,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1029020052,1029,favipiravir,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1030020052,1030,Remdesivir,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1031020052,1031,ribavirin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1032020052,1032,oseltamivir,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1033020052,1033,Ivermectin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1034020052,1034,itraconazole,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1035020052,1035,warfarin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1036020052,1036,heparin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1037020052,1037,enoxaparin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1038020052,1038,edoxaban,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1039020052,1039,dabigatran,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1040020052,1040,rivaroxaban,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1041020052,1041,acenocoumarol,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1042020052,1042,apixaban,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1043020052,1043,bemiparin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1044020052,1044,clopidogrel,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1045020052,1045,aspirin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1046020052,1046,prasugrel,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1047020052,1047,alteplase,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1048020052,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1049020052,1049,tranexamic acid,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1050020052,1050,Ruxolitinib,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1051020052,1051,Siltuximab,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1052020052,1052,ACE inhibitors,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1053020052,1053,Angiotensin receptor blockers (ARBs),2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1054020052,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1055020052,1055,Thiazide or thiazide-like diuretics,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1056020052,1056,Hydrocortisone,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1057020052,1057,dexamethasone,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1058020052,1058,prednisone or prednisolone,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1059020052,1059,raloxifene,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1060020052,1060,Bevacizumab,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1061020052,1061,Fingolimod,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1062020052,1062,eculizumab ,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1063020052,1063,Statins,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1064020052,1064,metformin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1065020052,1065,DPP-4 inhibitors,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1066020052,1066,SGLT2 inhibitors,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1067020052,1067,GLP1 inhibitors,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1068020052,1068,H2 receptor antagonist,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1069020052,1069,famotidine,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1070020052,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1071020052,1071,prazosin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1072020052,1072,terazosin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1073020052,1073,doxazosin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1074020052,1074,tamsulosin,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1075020052,1075,BCG vaccine,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1076020052,1076,Colchicine,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1077020052,1077,Losartan,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1078020052,1078,cholecalciferol,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1079020052,1079,Ibrutinib,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1080020052,1080,abiraterone,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1081020052,1081,bicalutamide,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1082020052,1082,emtricitabine,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1083020052,1083,tacrolimus,2005,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services,TwoS
+1001020062,1001,Hydroxychloroquine ,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1002020062,1002,Hydroxychloroquine + Azithromycin ,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1003020062,1003,Hydroxychloroquine + Fluoroquinolones,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1004020062,1004,Hydroxychloroquine + Amoxicillin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1005020062,1005,Hydroxychloroquine + ceftriaxone,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1006020062,1006,Chloroquine,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1007020062,1007,Azithromycin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1008020062,1008,Fluoroquinolones,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1009020062,1009,Amoxicillin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1010020062,1010,Ceftriaxone,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1011020062,1011,"IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1012020062,1012,tocilizumab,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1013020062,1013,siltuximab,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1014020062,1014,sarilumab,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1015020062,1015,"JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1016020062,1016,baricitinib,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1017020062,1017,tofacitinib,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1018020062,1018,"TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1019020062,1019,adalimumab,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1020020062,1020,etanercept,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1021020062,1021,infliximab,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1022020062,1022,ustekinumab,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1023020062,1023,Anakinra,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1024020062,1024,HIV Protease inhibitors,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1025020062,1025,ritonavir/lopinavir,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1026020062,1026,Interferon beta 1b,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1027020062,1027,Interferon beta 1a,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1028020062,1028,Interferon alfa 2a,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1029020062,1029,favipiravir,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1030020062,1030,Remdesivir,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1031020062,1031,ribavirin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1032020062,1032,oseltamivir,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1033020062,1033,Ivermectin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1034020062,1034,itraconazole,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1035020062,1035,warfarin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1036020062,1036,heparin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1037020062,1037,enoxaparin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1038020062,1038,edoxaban,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1039020062,1039,dabigatran,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1040020062,1040,rivaroxaban,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1041020062,1041,acenocoumarol,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1042020062,1042,apixaban,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1043020062,1043,bemiparin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1044020062,1044,clopidogrel,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1045020062,1045,aspirin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1046020062,1046,prasugrel,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1047020062,1047,alteplase,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1048020062,1048,"Antifibrinolytics (tranexamic acid, aminocaproic acid)",2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1049020062,1049,tranexamic acid,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1050020062,1050,Ruxolitinib,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1051020062,1051,Siltuximab,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1052020062,1052,ACE inhibitors,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1053020062,1053,Angiotensin receptor blockers (ARBs),2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1054020062,1054,Non-Dihydropyridine Calcium Channel Blocker (ndCCB),2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1055020062,1055,Thiazide or thiazide-like diuretics,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1056020062,1056,Hydrocortisone,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1057020062,1057,dexamethasone,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1058020062,1058,prednisone or prednisolone,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1059020062,1059,raloxifene,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1060020062,1060,Bevacizumab,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1061020062,1061,Fingolimod,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1062020062,1062,eculizumab ,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1063020062,1063,Statins,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1064020062,1064,metformin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1065020062,1065,DPP-4 inhibitors,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1066020062,1066,SGLT2 inhibitors,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1067020062,1067,GLP1 inhibitors,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1068020062,1068,H2 receptor antagonist,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1069020062,1069,famotidine,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1070020062,1070,"Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1071020062,1071,prazosin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1072020062,1072,terazosin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1073020062,1073,doxazosin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1074020062,1074,tamsulosin,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1075020062,1075,BCG vaccine,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1076020062,1076,Colchicine,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1077020062,1077,Losartan,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1078020062,1078,cholecalciferol,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1079020062,1079,Ibrutinib,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1080020062,1080,abiraterone,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1081020062,1081,bicalutamide,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1082020062,1082,emtricitabine,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
+1083020062,1083,tacrolimus,2006,without  Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test after intensive services with 365d prior observation,TwoS
 1001000011,1001,Hydroxychloroquine ,1,with Full 30-day follow up,TwS
 1002000011,1002,Hydroxychloroquine + Azithromycin ,1,with Full 30-day follow up,TwS
 1003000011,1003,Hydroxychloroquine + Fluoroquinolones,1,with Full 30-day follow up,TwS
