@@ -55,7 +55,7 @@ runStudy <- function(connectionDetails = NULL,
   # Remove any cohorts that are to be excluded
   cohorts <- cohorts[!(cohorts$cohortId %in% cohortIdsToExcludeFromExecution), ]
   targetCohortIds <- cohorts[cohorts$cohortType %in% cohortGroups, "cohortId"][[1]]
-  strataCohortIds <- cohorts[cohorts$cohortType == "strata", "cohortId"][[1]]
+  subgroupCohortIds <- cohorts[cohorts$cohortType == "subgroup", "cohortId"][[1]]
   featureCohortIds <- cohorts[cohorts$cohortType == "feature", "cohortId"][[1]]
   
   # Start with the target cohorts
@@ -78,10 +78,10 @@ runStudy <- function(connectionDetails = NULL,
                          inclusionStatisticsFolder = exportFolder)
   }
 
-  # Next do the strata cohorts
-  if (length(strataCohortIds) > 0) {
+  # Next do the subgroup cohorts
+  if (length(subgroupCohortIds) > 0) {
     ParallelLogger::logInfo("******************************************")
-    ParallelLogger::logInfo("  ---- Creating strata cohorts  ---- ")
+    ParallelLogger::logInfo("  ---- Creating subgroup cohorts  ---- ")
     ParallelLogger::logInfo("******************************************")
     instantiateCohortSet(connectionDetails = connectionDetails,
                          connection = connection,
@@ -89,7 +89,7 @@ runStudy <- function(connectionDetails = NULL,
                          oracleTempSchema = oracleTempSchema,
                          cohortDatabaseSchema = cohortDatabaseSchema,
                          cohortTable = cohortStagingTable,
-                         cohortIds = strataCohortIds,
+                         cohortIds = subgroupCohortIds,
                          minCellCount = minCellCount,
                          createCohortTable = FALSE,
                          generateInclusionStats = FALSE,
@@ -121,9 +121,9 @@ runStudy <- function(connectionDetails = NULL,
 
   # Create the stratified cohorts
   ParallelLogger::logInfo("**********************************************************")
-  ParallelLogger::logInfo(" ---- Creating stratified target cohorts ---- ")
+  ParallelLogger::logInfo(" ---- Creating subgrouped target cohorts ---- ")
   ParallelLogger::logInfo("**********************************************************")
-  createBulkStrata(connection = connection,
+  createBulkSubgroup(connection = connection,
                    cdmDatabaseSchema = cdmDatabaseSchema,
                    cohortDatabaseSchema = cohortDatabaseSchema,
                    cohortStagingTable = cohortStagingTable,
@@ -236,7 +236,7 @@ runStudy <- function(connectionDetails = NULL,
     return(data)
   }
 
-  # Subset the cohorts to the target/strata for running feature extraction
+  # Subset the cohorts to the target/subgroup for running feature extraction
   # that are >= 140 per protocol to improve efficency
   featureExtractionCohorts <-  loadCohortsForExportWithChecksumFromPackage(counts[counts$cohortSubjects >= getMinimumSubjectCountForCharacterization(), c("cohortId")]$cohortId)
   # Bulk approach ----------------------
@@ -454,14 +454,14 @@ loadCohortsForExportFromPackage <- function(cohortIds) {
   
   # Get the stratified cohorts for the study
   # and join to the cohorts to create to get the names
-  targetStrataXref <- getTargetStrataXref()
-  targetStrataXref <- dplyr::rename(targetStrataXref, cohortName = "name")
-  targetStrataXref$cohortFullName <- targetStrataXref$cohortName
-  targetStrataXref$targetId <- NULL
-  targetStrataXref$strataId <- NULL
+  targetSubgroupXref <- getTargetSubgroupXref()
+  targetSubgroupXref <- dplyr::rename(targetSubgroupXref, cohortName = "name")
+  targetSubgroupXref$cohortFullName <- targetSubgroupXref$cohortName
+  targetSubgroupXref$targetId <- NULL
+  targetSubgroupXref$subgroupId <- NULL
   
   cols <- names(cohorts)
-  cohorts <- rbind(cohorts, targetStrataXref[cols])
+  cohorts <- rbind(cohorts, targetSubgroupXref[cols])
     
   if (!is.null(cohortIds)) {
     cohorts <- cohorts[cohorts$cohortId %in% cohortIds, ]
@@ -472,39 +472,41 @@ loadCohortsForExportFromPackage <- function(cohortIds) {
 
 loadCohortsForExportWithChecksumFromPackage <- function(cohortIds) {
   packageName = getThisPackageName()
-  strata <- getAllStrata()
-  targetStrataXref <- getTargetStrataXref()
+  subgroup <- getAllSubgroup()
+  targetSubgroupXref <- getTargetSubgroupXref()
   cohorts <- loadCohortsForExportFromPackage(cohortIds)
   
-  # Match up the cohorts in the study w/ the targetStrataXref and 
-  # set the target/strata columns
-  cohortsWithStrata <- dplyr::left_join(cohorts, targetStrataXref, by="cohortId")
-  cohortsWithStrata <- dplyr::rename(cohortsWithStrata, cohortType = "cohortType.x")
-  cohortsWithStrata$targetId <- ifelse(is.na(cohortsWithStrata$targetId), cohortsWithStrata$cohortId, cohortsWithStrata$targetId)
-  cohortsWithStrata$strataId <- ifelse(is.na(cohortsWithStrata$strataId), 0, cohortsWithStrata$strataId)
+  # Match up the cohorts in the study w/ the targetSubgroupXref and 
+  # set the target/subgroup columns
+  cohortsWithSubgroup <- dplyr::left_join(cohorts, targetSubgroupXref, by="cohortId")
+  cohortsWithSubgroup <- dplyr::rename(cohortsWithSubgroup, cohortType = "cohortType.x")
+  cohortsWithSubgroup$targetId <- ifelse(is.na(cohortsWithSubgroup$targetId), cohortsWithSubgroup$cohortId, cohortsWithSubgroup$targetId)
+  cohortsWithSubgroup$subgroupId <- ifelse(is.na(cohortsWithSubgroup$subgroupId), 0, cohortsWithSubgroup$subgroupId)
   
-  getChecksum <- function(targetId, strataId, cohortType) {
+  getChecksum <- function(targetId, subgroupId, cohortType) {
     pathToSql <- system.file("sql", "sql_server", paste0(targetId, ".sql"), package = packageName, mustWork = TRUE)
     sql <- readChar(pathToSql, file.info(pathToSql)$size)
-    if (strataId > 0) {
-      sqlFileName <- strata[strata$cohortId == strataId, c("generationScript")][[1]]
-      pathToSql <- system.file("sql", "sql_server", sqlFileName, package = packageName, mustWork = TRUE)
-      strataSql <- readChar(pathToSql, file.info(pathToSql)$size)
-      sql <- paste(sql, strataSql, cohortType)
+    if (subgroupId > 0) {
+      sqlFileName <- subgroup[subgroup$cohortId == subgroupId, c("generationScript")][[1]]
+      if (is.na(sqlFileName)) {
+        pathToSql <- system.file("sql", "sql_server", sqlFileName, package = packageName, mustWork = TRUE)
+        subgroupSql <- readChar(pathToSql, file.info(pathToSql)$size)
+        sql <- paste(sql, subgroupSql, cohortType)
+      }
     }
     checksum <- computeChecksum(sql)
     return(checksum)
   }
-  cohortsWithStrata$checksum <- mapply(getChecksum, 
-                                       cohortsWithStrata$targetId, 
-                                       strataId = cohortsWithStrata$strataId, 
-                                       cohortType = cohortsWithStrata$cohortType)
+  cohortsWithSubgroup$checksum <- mapply(getChecksum, 
+                                       cohortsWithSubgroup$targetId, 
+                                       subgroupId = cohortsWithSubgroup$subgroupId, 
+                                       cohortType = cohortsWithSubgroup$cohortType)
   
   if (!is.null(cohortIds)) {
-    cohortsWithStrata <- cohortsWithStrata[cohortsWithStrata$cohortId %in% cohortIds, ]
+    cohortsWithSubgroup <- cohortsWithSubgroup[cohortsWithSubgroup$cohortId %in% cohortIds, ]
   }
   
-  return(cohortsWithStrata)
+  return(cohortsWithSubgroup)
 }
 
 writeToCsv <- function(data, fileName, incremental = FALSE, ...) {

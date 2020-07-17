@@ -1,7 +1,7 @@
-@target_strata_xref_table_create
+@target_subgroup_xref_table_create
 
 DELETE FROM @cohort_database_schema.@cohort_staging_table
-WHERE cohort_definition_id IN (SELECT DISTINCT cohort_id FROM #TARGET_STRATA_XREF)
+WHERE cohort_definition_id IN (SELECT DISTINCT cohort_id FROM #TARGET_SUBGROUP_XREF)
 ;
 
 --find T with S, create a temp table to hold these new cohorts
@@ -11,12 +11,12 @@ select cr1.cohort_id cohort_definition_id,
   t.cohort_end_date
 into #t_w_s_cohort
 from
-(select * from #TARGET_STRATA_XREF where cohort_type = 'TwS') cr1
+(select * from #TARGET_SUBGROUP_XREF where cohort_type = 'TwS') cr1
 inner join
 (
    select c1.cohort_definition_id, c1.subject_id, c1.cohort_start_date, c1.cohort_end_date
    from @cohort_database_schema.@cohort_staging_table as c1
-   inner join (SELECT DISTINCT target_id cohort_definition_id FROM #TARGET_STRATA_XREF) as cr1
+   inner join (SELECT DISTINCT target_id cohort_definition_id FROM #TARGET_SUBGROUP_XREF) as cr1
    on c1.cohort_definition_id = cr1.cohort_definition_id
 ) t
 on cr1.target_id = t.cohort_definition_id
@@ -24,10 +24,10 @@ inner join
 (
    select c1.cohort_definition_id, c1.subject_id, c1.cohort_start_date, c1.cohort_end_date
    from @cohort_database_schema.@cohort_staging_table as c1
-   inner join (SELECT DISTINCT strata_id cohort_definition_id FROM #TARGET_STRATA_XREF) as cr1
+   inner join (SELECT DISTINCT subgroup_id cohort_definition_id FROM #TARGET_SUBGROUP_XREF) as cr1
    on c1.cohort_definition_id = cr1.cohort_definition_id
 ) s
-on cr1.strata_id = s.cohort_definition_id
+on cr1.subgroup_id = s.cohort_definition_id
 and t.subject_id = s.subject_id
 and s.cohort_start_date <= t.cohort_start_date
 and s.cohort_end_date >= t.cohort_start_date
@@ -41,12 +41,12 @@ select cr1.cohort_id cohort_definition_id,
   t.cohort_end_date
 into #t_wo_s_cohort
 from
-(select * from #TARGET_STRATA_XREF where cohort_type = 'TwoS') cr1
+(select * from #TARGET_SUBGROUP_XREF where cohort_type = 'TwoS') cr1
 inner join
 (
    select c1.cohort_definition_id, c1.subject_id, c1.cohort_start_date, c1.cohort_end_date
    from @cohort_database_schema.@cohort_staging_table as c1
-   inner join (SELECT DISTINCT target_id cohort_definition_id FROM #TARGET_STRATA_XREF) as cr1
+   inner join (SELECT DISTINCT target_id cohort_definition_id FROM #TARGET_SUBGROUP_XREF) as cr1
    on c1.cohort_definition_id = cr1.cohort_definition_id
 ) t
 on cr1.target_id = t.cohort_definition_id
@@ -54,10 +54,10 @@ left join
 (
    select c1.cohort_definition_id, c1.subject_id, c1.cohort_start_date, c1.cohort_end_date
    from @cohort_database_schema.@cohort_staging_table as c1
-   inner join (SELECT DISTINCT strata_id cohort_definition_id FROM #TARGET_STRATA_XREF) as cr1
+   inner join (SELECT DISTINCT subgroup_id cohort_definition_id FROM #TARGET_SUBGROUP_XREF) as cr1
    on c1.cohort_definition_id = cr1.cohort_definition_id
 ) s
-on cr1.strata_id = s.cohort_definition_id
+on cr1.subgroup_id = s.cohort_definition_id
 and t.subject_id = s.subject_id
 and s.cohort_start_date <= t.cohort_start_date
 and s.cohort_end_date >= t.cohort_start_date
@@ -87,4 +87,4 @@ DROP TABLE #t_w_s_cohort;
 TRUNCATE TABLE #t_wo_s_cohort;
 DROP TABLE #t_wo_s_cohort;
 
-@target_strata_xref_table_drop
+@target_subgroup_xref_table_drop

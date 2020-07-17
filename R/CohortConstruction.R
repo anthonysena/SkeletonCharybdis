@@ -492,11 +492,11 @@ copyAndCensorCohorts <- function(connection,
                                  oracleTempSchema) {
   packageName = getThisPackageName()
   # Create the SQL for the temp table to hold the cohorts to be stratified
-  targetStrataXref <- getTargetStrataXref()
-  # Get the strata to create for the targets selected
-  tsXrefSubset <- targetStrataXref[targetStrataXref$targetId %in% targetIds, ]
+  targetSubgroupXref <- getTargetSubgroupXref()
+  # Get the subgroup to create for the targets selected
+  tsXrefSubset <- targetSubgroupXref[targetSubgroupXref$targetId %in% targetIds, ]
   # Create the SQL for the temp table to hold the cohorts to be stratified
-  tsXrefTempTableSql <- cohortStrataXrefTempTableSql(connection, tsXrefSubset, oracleTempSchema)
+  tsXrefTempTableSql <- cohortSubgroupXrefTempTableSql(connection, tsXrefSubset, oracleTempSchema)
 
   sql <- SqlRender::loadRenderTranslateSql(dbms = attr(connection, "dbms"),
                                            sqlFilename = "CopyAndCensorCohorts.sql",
@@ -507,8 +507,8 @@ copyAndCensorCohorts <- function(connection,
                                            cohort_staging_table = cohortStagingTable,
                                            cohort_table = cohortTable,
                                            min_cell_count = minCellCount,
-                                           target_strata_xref_table_create = tsXrefTempTableSql$create,
-                                           target_strata_xref_table_drop = tsXrefTempTableSql$drop)
+                                           target_subgroup_xref_table_create = tsXrefTempTableSql$create,
+                                           target_subgroup_xref_table_drop = tsXrefTempTableSql$drop)
   
   ParallelLogger::logInfo("Copy and censor cohorts to main analysis table")
   DatabaseConnector::executeSql(connection, sql)

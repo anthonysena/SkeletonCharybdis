@@ -21,7 +21,7 @@ createFeatureProportions <- function(connection,
                                            feature_time_window_table_create = featureTimeWindowTempTableSql$create,
                                            feature_time_window_table_drop = featureTimeWindowTempTableSql$drop)
   
-  ParallelLogger::logInfo("Compute feature proportions for all target and strata")
+  ParallelLogger::logInfo("Compute feature proportions for all target and subgroups")
   DatabaseConnector::executeSql(connection, sql)
 }
 
@@ -98,10 +98,10 @@ featureWindowsTempTableSql <- function(connection, featureWindows, oracleTempSch
 
 getAllFeatures <- function() {
   colNames <- c("name", "cohortId") # Use this to subset to the columns of interest
-  cohortBasedStrata <- getCohortBasedStrata()
-  cohortBasedStrata <- cohortBasedStrata[, match(colNames, names(cohortBasedStrata))]
+  cohortBasedSubgroup <- getCohortBasedSubgroup()
+  cohortBasedSubgroup <- cohortBasedSubgroup[, match(colNames, names(cohortBasedSubgroup))]
   cohortBasedFeatures <- getFeatures()
   cohortBasedFeatures <- cohortBasedFeatures[, match(colNames, names(cohortBasedFeatures))]
-  features <- rbind(cohortBasedStrata, cohortBasedFeatures)
+  features <- rbind(cohortBasedSubgroup, cohortBasedFeatures)
   return(features)  
 }

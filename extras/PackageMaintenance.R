@@ -166,29 +166,29 @@ for (i in 1:nrow(cohortGroups)) {
 }
 
 
-# Create the list of combinations of T, TwS, TwoS for the combinations of strata ----------------------------
+# Create the list of combinations of T, TwS, TwoS for the combinations of subgroups ----------------------------
 settingsPath <- "inst/settings"
 targetCohorts <- read.csv(file.path(settingsPath, "CohortsToCreateTarget.csv"))
-bulkStrata <- read.csv(file.path(settingsPath, "BulkStrata.csv"))
-atlasCohortStrata <- read.csv(file.path(settingsPath, "CohortsToCreateStrata.csv"))
+bulkSubgroup <- read.csv(file.path(settingsPath, "BulkSubgroup.csv"))
+atlasCohortSubgroup <- read.csv(file.path(settingsPath, "CohortsToCreateSubgroup.csv"))
 featureCohorts <- read.csv(file.path(settingsPath, "CohortsToCreateFeature.csv"))
 
 
 # Ensure all of the IDs are unique
 allCohortIds <- c(targetCohorts[,match("cohortId", names(targetCohorts))], 
-                  bulkStrata[,match("cohortId", names(bulkStrata))],
-                  atlasCohortStrata[,match("cohortId", names(atlasCohortStrata))],
+                  bulkSubgroup[,match("cohortId", names(bulkSubgroup))],
+                  atlasCohortSubgroup[,match("cohortId", names(atlasCohortSubgroup))],
                   featureCohorts[,match("cohortId", names(featureCohorts))])
 allCohortIds <- sort(allCohortIds)
 
-totalRows <- nrow(targetCohorts) + nrow(bulkStrata) + nrow(atlasCohortStrata) + nrow(featureCohorts)
+totalRows <- nrow(targetCohorts) + nrow(bulkSubgroup) + nrow(atlasCohortSubgroup) + nrow(featureCohorts)
 if (length(unique(allCohortIds)) != totalRows) {
   warning("There are duplicate cohort IDs in the settings files!")
 }
 
 # When necessary, use this to view the full list of cohorts in the study
 fullCohortList <- rbind(targetCohorts[,c("cohortId", "atlasId", "name")],
-                        atlasCohortStrata[,c("cohortId", "atlasId", "name")],
+                        atlasCohortSubgroup[,c("cohortId", "atlasId", "name")],
                         featureCohorts[,c("cohortId", "atlasId", "name")])
 
 fullCohortList <- fullCohortList[order(fullCohortList$cohortId),]
@@ -197,51 +197,53 @@ fullCohortList <- fullCohortList[order(fullCohortList$cohortId),]
 colNames <- c("name", "cohortId") # Use this to subset to the columns of interest
 targetCohorts <- targetCohorts[, match(colNames, names(targetCohorts))]
 names(targetCohorts) <- c("targetName", "targetId")
-# Strata cohorts
-bulkStrata <- bulkStrata[, match(colNames, names(bulkStrata))]
-bulkStrata$withStrataName <- paste("with", trimws(bulkStrata$name))
-bulkStrata$inverseName <- paste("without", trimws(bulkStrata$name))
-atlasCohortStrata <- atlasCohortStrata[, match(colNames, names(atlasCohortStrata))]
-atlasCohortStrata$withStrataName <- paste("with", trimws(atlasCohortStrata$name))
-atlasCohortStrata$inverseName <- paste("without", trimws(atlasCohortStrata$name))
-strata <- rbind(bulkStrata, atlasCohortStrata)
-names(strata) <- c("name", "strataId", "strataName", "strataInverseName")
-# Get all of the unique combinations of target + strata
-targetStrataCP <- do.call(expand.grid, lapply(list(targetCohorts$targetId, strata$strataId), unique))
-names(targetStrataCP) <- c("targetId", "strataId")
-targetStrataCP <- merge(targetStrataCP, targetCohorts)
-targetStrataCP <- merge(targetStrataCP, strata)
-targetStrataCP <- targetStrataCP[order(targetStrataCP$strataId, targetStrataCP$targetId),]
-targetStrataCP$cohortId <- (targetStrataCP$targetId * 1000000) + (targetStrataCP$strataId*10)
-tWithS <- targetStrataCP
-tWithoutS <- targetStrataCP[targetStrataCP$strataId %in% atlasCohortStrata$cohortId, ]
+# Subgroup cohorts
+if (nrow(bulkSubgroup) > 0) {
+  bulkSubgroup <- bulkSubgroup[, match(colNames, names(bulkSubgroup))]
+  bulkSubgroup$withSubgroupName <- paste("with", trimws(bulkSubgroup$name))
+  bulkSubgroup$inverseName <- paste("without", trimws(bulkSubgroup$name))
+}
+atlasCohortSubgroup <- atlasCohortSubgroup[, match(colNames, names(atlasCohortSubgroup))]
+atlasCohortSubgroup$withSubgroupName <- paste("with", trimws(atlasCohortSubgroup$name))
+atlasCohortSubgroup$inverseName <- paste("without", trimws(atlasCohortSubgroup$name))
+subgroup <- rbind(bulkSubgroup, atlasCohortSubgroup)
+names(subgroup) <- c("name", "subgroupId", "subgroupName", "subgroupInverseName")
+# Get all of the unique combinations of target + subgroup
+targetsubgroupCP <- do.call(expand.grid, lapply(list(targetCohorts$targetId, subgroup$subgroupId), unique))
+names(targetsubgroupCP) <- c("targetId", "subgroupId")
+targetsubgroupCP <- merge(targetsubgroupCP, targetCohorts)
+targetsubgroupCP <- merge(targetsubgroupCP, subgroup)
+targetsubgroupCP <- targetsubgroupCP[order(targetsubgroupCP$subgroupId, targetsubgroupCP$targetId),]
+targetsubgroupCP$cohortId <- (targetsubgroupCP$targetId * 1000000) + (targetsubgroupCP$subgroupId*10)
+tWithS <- targetsubgroupCP
+tWithoutS <- targetsubgroupCP[targetsubgroupCP$subgroupId %in% atlasCohortSubgroup$cohortId, ]
 tWithS$cohortId <- tWithS$cohortId + 1
 tWithS$cohortType <- "TwS"
-tWithS$name <- paste(tWithS$targetName, tWithS$strataName)
-tWithoutS$cohortId <- tWithoutS$cohortId + 2
-tWithoutS$cohortType <- "TwoS"
-tWithoutS$name <- paste(tWithoutS$targetName, tWithoutS$strataInverseName)
-targetStrataXRef <- rbind(tWithS, tWithoutS)
+tWithS$name <- paste(tWithS$targetName, tWithS$subgroupName)
+# tWithoutS$cohortId <- tWithoutS$cohortId + 2
+# tWithoutS$cohortType <- "TwoS"
+# tWithoutS$name <- paste(tWithoutS$targetName, tWithoutS$subgroupInverseName)
+targetsubgroupXRef <- tWithS#rbind(tWithS, tWithoutS)
 
 # For shiny, construct a data frame to provide details on the original cohort names
-xrefColumnNames <- c("cohortId", "targetId", "targetName", "strataId", "strataName", "cohortType")
+xrefColumnNames <- c("cohortId", "targetId", "targetName", "subgroupId", "subgroupName", "cohortType")
 targetCohortsForShiny <- targetCohorts
 targetCohortsForShiny$cohortId <- targetCohortsForShiny$targetId
-targetCohortsForShiny$strataId <- 0
-targetCohortsForShiny$strataName <- "All"
+targetCohortsForShiny$subgroupId <- 0
+targetCohortsForShiny$subgroupName <- "All"
 targetCohortsForShiny$cohortType <- "Target"
-inverseStrata <- targetStrataXRef[targetStrataXRef$cohortType == "TwoS",]
-inverseStrata$strataName <- inverseStrata$strataInverseName
+inversesubgroup <- targetsubgroupXRef[targetsubgroupXRef$cohortType == "TwoS",]
+inversesubgroup$subgroupName <- inversesubgroup$subgroupInverseName
 
 shinyCohortXref <- rbind(targetCohortsForShiny[,xrefColumnNames], 
-                         inverseStrata[,xrefColumnNames],
-                         targetStrataXRef[targetStrataXRef$cohortType == "TwS",xrefColumnNames])
+                         inversesubgroup[,xrefColumnNames],
+                         targetsubgroupXRef[targetsubgroupXRef$cohortType == "TwS",xrefColumnNames])
 
 readr::write_csv(shinyCohortXref, file.path("inst/shiny/CharybdisResultsExplorer", "cohortXref.csv"))
 
-# Write out the final targetStrataXRef
-targetStrataXRef <- targetStrataXRef[,c("targetId","strataId","cohortId","cohortType","name")]
-readr::write_csv(targetStrataXRef, file.path(settingsPath, "targetStrataXref.csv"))
+# Write out the final targetsubgroupXRef
+targetsubgroupXRef <- targetsubgroupXRef[,c("targetId","subgroupId","cohortId","cohortType","name")]
+readr::write_csv(targetsubgroupXRef, file.path(settingsPath, "targetSubgroupXref.csv"))
 
 
 # Store environment in which the study was executed -----------------------

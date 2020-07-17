@@ -20,13 +20,13 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
 oracleTempSchema <- NULL
 
 # Details specific to the database:
-databaseId <- "CDM_OPTUM_EHR_COVID_v1239"
-databaseName <- "CDM_OPTUM_EHR_COVID_v1239"
-databaseDescription <- "CDM_OPTUM_EHR_COVID_v1239"
+databaseId <- "CDM_Premier_COVID_v1240"
+databaseName <- "CDM_Premier_COVID_v1240"
+databaseDescription <- "CDM_Premier_COVID_v1240"
 
 # Details for connecting to the CDM and storing the results
 outputFolder <- file.path("E:/SkeletonCharybdis/Runs", databaseId)
-cdmDatabaseSchema <- "CDM_OPTUM_EHR_COVID_v1239.dbo"
+cdmDatabaseSchema <- "CDM_Premier_COVID_v1240.dbo"
 cohortDatabaseSchema <- "scratch.dbo"
 cohortTable <- paste0("AS_SkeletonCharybdis_", databaseId)
 cohortStagingTable <- paste0(cohortTable, "_stg")
@@ -54,7 +54,7 @@ runCohortDiagnostics(connectionDetails = connectionDetails,
                      minCellCount = minCellCount)
 
 # Use the next command to review cohort diagnostics and replace "target" with
-# one of these options: "target", "strata", "feature"
+# one of these options: "target", "subgroup", "feature"
 # CohortDiagnostics::launchDiagnosticsExplorer(file.path(outputFolder, "diagnostics", "target"))
 
 # When finished with reviewing the diagnostics, use the next command

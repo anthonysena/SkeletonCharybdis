@@ -106,9 +106,9 @@ cohortXref <- readr::read_csv("./cohortXref.csv", col_types = readr::cols())
 targetCohort <- cohortXref[,c("targetId","targetName")]
 targetCohort <- unique(targetCohort)
 targetCohort <- targetCohort[order(targetCohort$targetName),]
-strataCohort <- cohortXref[,c("strataId","strataName")]
-strataCohort <- unique(strataCohort)
-strataCohort <- strataCohort[order(strataCohort$strataId),]
+subgroupCohort <- cohortXref[,c("subgroupId","subgroupName")]
+subgroupCohort <- unique(subgroupCohort)
+subgroupCohort <- subgroupCohort[order(subgroupCohort$subgroupId),]
 
 # Cohort characterization & comparison will be restricted
 # to those cohorts where the count is >= 140 per the study
@@ -117,13 +117,13 @@ hasCharacterization <- cohortCount[cohortCount$cohortSubjects >= 140,] # Filter 
 characterizationCohortIds <- unique(hasCharacterization$cohortId) # Get the unique cohorts across all databases
 characterizationTargetCohort <- unique(cohortXref[cohortXref$cohortId %in% characterizationCohortIds,c("targetId","targetName")])
 characterizationTargetCohort <- characterizationTargetCohort[order(characterizationTargetCohort$targetName),]
-characterizationStrataCohort <- unique(cohortXref[cohortXref$cohortId %in% characterizationCohortIds,c("strataId","strataName")])
-characterizationStrataCohort <- characterizationStrataCohort[order(characterizationStrataCohort$strataId),]
+characterizationsubgroupCohort <- unique(cohortXref[cohortXref$cohortId %in% characterizationCohortIds,c("subgroupId","subgroupName")])
+characterizationsubgroupCohort <- characterizationsubgroupCohort[order(characterizationsubgroupCohort$subgroupId),]
 
 initCharCohortId <- characterizationTargetCohort$targetId[1]
 initCharCompareCohortId <- characterizationTargetCohort$targetId[2]
 targetName <- cohortXref[cohortXref$cohortId == initCharCohortId,c("targetName")][1]
-strataName <- cohortXref[cohortXref$cohortId == initCharCohortId,c("strataName")][1]
+subgroupName <- cohortXref[cohortXref$cohortId == initCharCohortId,c("subgroupName")][1]
 comparatorName <- cohortXref[cohortXref$cohortId == initCharCompareCohortId,c("targetName")][1]
-comparatorStrataName <- cohortXref[cohortXref$cohortId == initCharCompareCohortId,c("strataName")][1]
+comparatorsubgroupName <- cohortXref[cohortXref$cohortId == initCharCompareCohortId,c("subgroupName")][1]
 

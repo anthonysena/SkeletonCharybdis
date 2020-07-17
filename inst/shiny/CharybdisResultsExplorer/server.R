@@ -55,7 +55,7 @@ styleAbsColorBar <- function(maxValue, colorPositive, colorNegative, angle = 90)
 shinyServer(function(input, output, session) {
   
   cohortIdList <- reactive({
-    return(unlist(cohortXref[cohortXref$targetId %in% targetCohortIdList() & cohortXref$strataName %in% input$strataCohortList,c("cohortId")]))
+    return(unlist(cohortXref[cohortXref$targetId %in% targetCohortIdList() & cohortXref$subgroupName %in% input$subgroupCohortList,c("cohortId")]))
   })
   
   targetCohortIdList <- reactive({
@@ -63,25 +63,25 @@ shinyServer(function(input, output, session) {
   })
   
   targetCohortName <- reactive({
-    cohort <- cohortXref[cohortXref$cohortId == cohortId(), c("targetName", "strataId", "strataName")]
+    cohort <- cohortXref[cohortXref$cohortId == cohortId(), c("targetName", "subgroupId", "subgroupName")]
     fullCohortName <- cohort$targetName[1]
-    if (cohort$strataId[1] > 0) {
-      fullCohortName <- paste(fullCohortName, cohort$strataName[1])
+    if (cohort$subgroupId[1] > 0) {
+      fullCohortName <- paste(fullCohortName, cohort$subgroupName[1])
     }
     return(fullCohortName)
   })
   
   comparatorCohortName <- reactive({
-    cohort <- cohortXref[cohortXref$cohortId == comparatorCohortId(), c("targetName", "strataId", "strataName")]
+    cohort <- cohortXref[cohortXref$cohortId == comparatorCohortId(), c("targetName", "subgroupId", "subgroupName")]
     fullCohortName <- cohort$targetName[1]
-    if (cohort$strataId[1] > 0) {
-      fullCohortName <- paste(fullCohortName, cohort$strataName[1])
+    if (cohort$subgroupId[1] > 0) {
+      fullCohortName <- paste(fullCohortName, cohort$subgroupName[1])
     }
     return(fullCohortName)
   })
   
   cohortId <- reactive({
-    return(unlist(cohortXref[cohortXref$targetId == targetId() & cohortXref$strataName == input$strataCohort,c("cohortId")]))
+    return(unlist(cohortXref[cohortXref$targetId == targetId() & cohortXref$subgroupName == input$subgroupCohort,c("cohortId")]))
   })
   
   targetId <- reactive({
@@ -89,7 +89,7 @@ shinyServer(function(input, output, session) {
   })
 
   comparatorCohortId <- reactive({
-    return(unlist(cohortXref[cohortXref$targetId == comparatorTargetId() & cohortXref$strataName == input$comparatorStrataCohort,c("cohortId")]))
+    return(unlist(cohortXref[cohortXref$targetId == comparatorTargetId() & cohortXref$subgroupName == input$comparatorsubgroupCohort,c("cohortId")]))
   })
   
   comparatorTargetId <- reactive({
@@ -122,7 +122,7 @@ shinyServer(function(input, output, session) {
     table <- dplyr::inner_join(cohortXref, table, by="cohortId")
     table$cohortId <- NULL
     table$targetId <- NULL
-    table$strataId <- NULL
+    table$subgroupId <- NULL
     table$cohortType <- NULL
     table <- table[order(table$targetName),]
     
@@ -131,7 +131,7 @@ shinyServer(function(input, output, session) {
       thead(
         tr(
           th(rowspan = 2, 'Cohort'),
-          th(rowspan = 2, 'Strata'),
+          th(rowspan = 2, 'subgroup'),
           lapply(databaseIds, th, colspan = 1, class = "dt-center")
         ),
         tr(

@@ -23,7 +23,7 @@ launchShinyApp <- function(outputFolder) {
   ensure_installed("VennDiagram")
   ensure_installed("htmltools")
   appDir <- system.file("shiny/CharybdisResultsExplorer", package = getThisPackageName(), mustWork = TRUE)
-  shinySettings <- list(dataFolder = outputFolder)
+  shinySettings <- list(storage = "filesystem", dataFolder = outputFolder, dataFile = "PreMerged.RData")
   .GlobalEnv$shinySettings <- shinySettings
   on.exit(rm(shinySettings, envir = .GlobalEnv))
   shiny::runApp(appDir)

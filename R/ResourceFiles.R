@@ -1,5 +1,5 @@
-getBulkStrata <- function() {
-  resourceFile <- file.path(getPathToResource(), "BulkStrata.csv")
+getBulkSubgroup <- function() {
+  resourceFile <- file.path(getPathToResource(), "BulkSubgroup.csv")
   return(readCsv(resourceFile))
 }
 
@@ -17,8 +17,8 @@ getCohortGroups <- function () {
   return(readCsv(resourceFile))
 }
 
-getCohortBasedStrata <- function() {
-  resourceFile <- file.path(getPathToResource(), "CohortsToCreateStrata.csv")
+getCohortBasedSubgroup <- function() {
+  resourceFile <- file.path(getPathToResource(), "CohortsToCreateSubgroup.csv")
   return(readCsv(resourceFile))
 }
 
@@ -32,8 +32,8 @@ getFeatureTimeWindows <- function() {
   return(readCsv(resourceFile))
 }
 
-getTargetStrataXref <- function() {
-  resourceFile <- file.path(getPathToResource(), "targetStrataXref.csv")
+getTargetSubgroupXref <- function() {
+  resourceFile <- file.path(getPathToResource(), "targetSubgroupXref.csv")
   return(readCsv(resourceFile))
 }
 
@@ -48,44 +48,44 @@ getCohortsToCreate <- function(cohortGroups = getCohortGroups()) {
   return(cohorts)  
 }
 
-getAllStrata <- function() {
+getAllSubgroup <- function() {
   colNames <- c("name", "cohortId", "generationScript") # Use this to subset to the columns of interest
-  bulkStrata <- getBulkStrata()
-  bulkStrata <- bulkStrata[, match(colNames, names(bulkStrata))]
-  atlasCohortStrata <- getCohortBasedStrata()
-  atlasCohortStrata$generationScript <- paste0(atlasCohortStrata$cohortId, ".sql")
-  atlasCohortStrata <- atlasCohortStrata[, match(colNames, names(atlasCohortStrata))]
-  strata <- rbind(bulkStrata, atlasCohortStrata)
-  return(strata)  
+  bulkSubgroup <- getBulkSubgroup()
+  bulkSubgroup <- bulkSubgroup[, match(colNames, names(bulkSubgroup))]
+  atlasCohortSubgroup <- getCohortBasedSubgroup()
+  atlasCohortSubgroup$generationScript <- paste0(atlasCohortSubgroup$cohortId, ".sql")
+  atlasCohortSubgroup <- atlasCohortSubgroup[, match(colNames, names(atlasCohortSubgroup))]
+  subgroup <- rbind(bulkSubgroup, atlasCohortSubgroup)
+  return(subgroup)  
 }
 
 getAllStudyCohorts <- function() {
   cohortsToCreate <- getCohortsToCreate()
-  targetStrataXref <- getTargetStrataXref()
+  targetSubgroupXref <- getTargetSubgroupXref()
   colNames <- c("name", "cohortId")
   cohortsToCreate <- cohortsToCreate[, match(colNames, names(cohortsToCreate))]
-  targetStrataXref <- targetStrataXref[, match(colNames, names(targetStrataXref))]
-  allCohorts <- rbind(cohortsToCreate, targetStrataXref)
+  targetSubgroupXref <- targetSubgroupXref[, match(colNames, names(targetSubgroupXref))]
+  allCohorts <- rbind(cohortsToCreate, targetSubgroupXref)
   return(allCohorts)
 }
 
 #' @export
 getAllStudyCohortsWithDetails <- function() {
   cohortsToCreate <- getCohortsToCreate()
-  targetStrataXref <- getTargetStrataXref()
-  allStrata <- getAllStrata()
-  colNames <- c("cohortId", "cohortName", "targetCohortId", "targetCohortName", "strataCohortId", "strataCohortName", "cohortType")
+  targetSubgroupXref <- getTargetSubgroupXref()
+  allSubgroup <- getAllSubgroup()
+  colNames <- c("cohortId", "cohortName", "targetCohortId", "targetCohortName", "subgroupCohortId", "subgroupCohortName", "cohortType")
   # Format - cohortsToCreate
   cohortsToCreate$targetCohortId <- cohortsToCreate$cohortId
   cohortsToCreate$targetCohortName <- cohortsToCreate$name
-  cohortsToCreate$strataCohortId <- 0
-  cohortsToCreate$strataCohortName <- "All"
+  cohortsToCreate$subgroupCohortId <- 0
+  cohortsToCreate$subgroupCohortName <- "All"
   cohortsToCreate <- dplyr::rename(cohortsToCreate, cohortName = "name")
   cohortsToCreate <- cohortsToCreate[, match(colNames, names(cohortsToCreate))]
-  # Format - targetStrataXref
-  stratifiedCohorts <- dplyr::inner_join(targetStrataXref, cohortsToCreate[,c("targetCohortId", "targetCohortName")], by = c("targetId" = "targetCohortId"))
-  stratifiedCohorts <- dplyr::inner_join(stratifiedCohorts, allStrata[,c("cohortId", "name")], by=c("strataId" = "cohortId"))
-  stratifiedCohorts <- dplyr::rename(stratifiedCohorts, targetCohortId="targetId",strataCohortId="strataId",cohortName="name.x",strataCohortName="name.y")
+  # Format - targetSubgroupXref
+  stratifiedCohorts <- dplyr::inner_join(targetSubgroupXref, cohortsToCreate[,c("targetCohortId", "targetCohortName")], by = c("targetId" = "targetCohortId"))
+  stratifiedCohorts <- dplyr::inner_join(stratifiedCohorts, allSubgroup[,c("cohortId", "name")], by=c("subgroupId" = "cohortId"))
+  stratifiedCohorts <- dplyr::rename(stratifiedCohorts, targetCohortId="targetId",subgroupCohortId="subgroupId",cohortName="name.x",subgroupCohortName="name.y")
   stratifiedCohorts <- stratifiedCohorts[,match(colNames, names(stratifiedCohorts))]
   # Bind
   allCohorts <- rbind(cohortsToCreate, stratifiedCohorts)
