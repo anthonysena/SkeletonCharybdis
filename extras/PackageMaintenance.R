@@ -199,11 +199,11 @@ targetCohorts <- targetCohorts[, match(colNames, names(targetCohorts))]
 names(targetCohorts) <- c("targetName", "targetId")
 # Strata cohorts
 bulkStrata <- bulkStrata[, match(colNames, names(bulkStrata))]
-bulkStrata$withStrataName <- paste("with", bulkStrata$name)
-bulkStrata$inverseName <- paste("without", bulkStrata$name)
+bulkStrata$withStrataName <- paste("with", trimws(bulkStrata$name))
+bulkStrata$inverseName <- paste("without", trimws(bulkStrata$name))
 atlasCohortStrata <- atlasCohortStrata[, match(colNames, names(atlasCohortStrata))]
-atlasCohortStrata$withStrataName <- paste("with ", atlasCohortStrata$name) 
-atlasCohortStrata$inverseName <- paste("without ", atlasCohortStrata$name) 
+atlasCohortStrata$withStrataName <- paste("with", trimws(atlasCohortStrata$name))
+atlasCohortStrata$inverseName <- paste("without", trimws(atlasCohortStrata$name))
 strata <- rbind(bulkStrata, atlasCohortStrata)
 names(strata) <- c("name", "strataId", "strataName", "strataInverseName")
 # Get all of the unique combinations of target + strata
