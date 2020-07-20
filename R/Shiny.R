@@ -22,7 +22,7 @@ launchShinyApp <- function(outputFolder) {
   ensure_installed("DT")
   ensure_installed("VennDiagram")
   ensure_installed("htmltools")
-  appDir <- system.file("shiny/CharybdisResultsExplorer", package = getThisPackageName(), mustWork = TRUE)
+  appDir <- system.file("shiny/ResultsExplorer", package = getThisPackageName(), mustWork = TRUE)
   shinySettings <- list(storage = "filesystem", dataFolder = outputFolder, dataFile = "PreMerged.RData")
   .GlobalEnv$shinySettings <- shinySettings
   on.exit(rm(shinySettings, envir = .GlobalEnv))

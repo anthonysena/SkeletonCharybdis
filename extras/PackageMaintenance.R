@@ -239,7 +239,7 @@ shinyCohortXref <- rbind(targetCohortsForShiny[,xrefColumnNames],
                          inversesubgroup[,xrefColumnNames],
                          targetsubgroupXRef[targetsubgroupXRef$cohortType == "TwS",xrefColumnNames])
 
-readr::write_csv(shinyCohortXref, file.path("inst/shiny/CharybdisResultsExplorer", "cohortXref.csv"))
+readr::write_csv(shinyCohortXref, file.path("inst/shiny/ResultsExplorer", "cohortXref.csv"))
 
 # Write out the final targetsubgroupXRef
 targetsubgroupXRef <- targetsubgroupXRef[,c("targetId","subgroupId","cohortId","cohortType","name")]
