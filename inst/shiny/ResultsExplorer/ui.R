@@ -17,9 +17,9 @@ addInfo <- function(item, infoId) {
 
 dashboardPage(
   dashboardHeader(
-    title = "CHARYBDIS",
+    title = "SCYLLA",
     tags$li(div(img(src = 'logo.png',
-                    title = "Characterizing Health Associated Risks, and Your Baseline Disease In SARS-COV-2", 
+                    title = "Characterization Results Viewer", 
                     height = "40px", 
                     width = "40px"),
                 style = "padding-top:0px; padding-bottom:0px;"),
