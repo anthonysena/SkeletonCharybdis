@@ -17,6 +17,7 @@ Requires R.
 Installation
 =============
 
+````
 # Install the latest version of renv:
 install.packages("renv")
 
@@ -34,3 +35,4 @@ renv::init()
 
 # And you’re done! The study package can now be loaded and used:
 library(SkeletonCharybdis)
+````
