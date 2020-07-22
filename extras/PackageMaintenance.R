@@ -257,3 +257,6 @@ packageFiles <- list.files(path=".", recursive = TRUE)
 if (!all(utf8::utf8_valid(packageFiles))) {
   print("Found invalid UTF-8 encoded files")
 }
+
+# Create the Renv lock file
+OhdsiRTools::createRenvLockFile("SkeletonCharybdis")

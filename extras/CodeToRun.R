@@ -8,26 +8,37 @@ options(fftempdir = fftempdir)
 dbms = Sys.getenv("DBMS")
 user <- if (Sys.getenv("DB_USER") == "") NULL else Sys.getenv("DB_USER")
 password <- if (Sys.getenv("DB_PASSWORD") == "") NULL else Sys.getenv("DB_PASSWORD")
+connectionString <- if (Sys.getenv("DB_CONNECTION_STRING") == "") NULL else Sys.getenv("DB_CONNECTION_STRING")
 server = Sys.getenv("DB_SERVER")
 port = Sys.getenv("DB_PORT")
-connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
-                                                                server = server,
-                                                                user = user,
-                                                                password = password,
-                                                                port = port)
+
+if (!is.null(connectionString)) {
+  connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
+                                                                  connectionString = connectionString,
+                                                                  user = user,
+                                                                  password = password)
+  
+} else {
+  connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
+                                                                  server = server,
+                                                                  user = user,
+                                                                  password = password,
+                                                                  port = port)
+  
+}
 
 # For Oracle: define a schema that can be used to emulate temp tables:
 oracleTempSchema <- NULL
 
 # Details specific to the database:
-databaseId <- "CDM_Premier_COVID_v1240"
-databaseName <- "CDM_Premier_COVID_v1240"
-databaseDescription <- "CDM_Premier_COVID_v1240"
+databaseId <- "cdm_health_verity_v1282_2"
+databaseName <- "cdm_health_verity_v1282_2"
+databaseDescription <- "cdm_health_verity_v1282_2"
 
 # Details for connecting to the CDM and storing the results
 outputFolder <- file.path("E:/SkeletonCharybdis/Runs", databaseId)
-cdmDatabaseSchema <- "CDM_Premier_COVID_v1240.dbo"
-cohortDatabaseSchema <- "scratch.dbo"
+cdmDatabaseSchema <- "cdm_health_verity_v1282_2"
+cohortDatabaseSchema <- "cdm_health_verity_v1282_2"
 cohortTable <- paste0("AS_SkeletonCharybdis_", databaseId)
 cohortStagingTable <- paste0(cohortTable, "_stg")
 featureSummaryTable <- paste0(cohortTable, "_smry")
