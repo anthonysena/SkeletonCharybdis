@@ -1,8 +1,8 @@
 library(SkeletonCharybdis)
 
-# Optional: specify where the temporary files (used by the ff package) will be created:
-fftempdir <- if (Sys.getenv("FFTEMP_DIR") == "") "~/fftemp" else Sys.getenv("FFTEMP_DIR")
-options(fftempdir = fftempdir)
+# Optional: specify where the temporary files (used by the Andromeda package) will be created:
+andromedaTempFolder <- if (Sys.getenv("ANDROMEDA_TEMP_FOLDER") == "") "~/andromedaTemp" else Sys.getenv("ANDROMEDA_TEMP_FOLDER")
+options(andromedaTempFolder = andromedaTempFolder)
 
 # Details for connecting to the server:
 dbms = Sys.getenv("DBMS")
