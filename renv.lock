@@ -506,8 +506,8 @@
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "SkeletonCharybdis",
-      "RemoteUsername": "ohdsi-studies",
-      "RemoteRef": "master"
+      "RemoteUsername": "anthonysena",
+      "RemoteRef": "scylla"
     }
   }
 }

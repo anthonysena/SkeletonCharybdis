@@ -1,3 +1,18 @@
+install.packages("renv")
+
+projectFolder <- "C:/OHDSI/renv_test"
+setwd(projectFolder)
+
+# Download the lock file:
+download.file("https://raw.githubusercontent.com/anthonysena/SkeletonCharybdis/scylla/renv.lock", "renv.lock")
+
+Sys.setenv("RENV_PATHS_CACHE" = getwd())
+
+# Build the local library:
+renv::init()
+
+# When not in RStudio, you'll need to restart R now
+
 library(SkeletonCharybdis)
 
 # Optional: specify where the temporary files (used by the Andromeda package) will be created:
@@ -36,7 +51,7 @@ databaseName <- "cdm_health_verity_v1282_2"
 databaseDescription <- "cdm_health_verity_v1282_2"
 
 # Details for connecting to the CDM and storing the results
-outputFolder <- file.path("E:/SkeletonCharybdis/Runs", databaseId)
+outputFolder <- file.path(projectFolder, databaseId)
 cdmDatabaseSchema <- "cdm_health_verity_v1282_2"
 cohortDatabaseSchema <- "cdm_health_verity_v1282_2"
 cohortTable <- paste0("AS_SkeletonCharybdis_", databaseId)
